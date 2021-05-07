@@ -1,7 +1,7 @@
 package com.qa.ResturauntHobby.service;
 
 import java.util.List;
-//import java.util.Optional;
+import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
@@ -25,8 +25,26 @@ public class ResturauntHobbyService {
 		return this.repo.findAll();		
 	}
 	
-//	public ResturauntHobby getById(Long id) {
-//		Optional<ResturauntHobby> optionalDish = this.repo.findById(id);
-//		return optionalDish.get();
-//	}
+	// getById needed to delete or update a field in the table
+	public ResturauntHobby getById(Long id) {
+		Optional<ResturauntHobby> optionalDish = this.repo.findById(id);
+		return optionalDish.get();
+	}
+	
+	//Delete
+	public boolean remove(Long id) {
+		this.repo.deleteById(id);
+		return this.repo.existsById(id);
+	}
+
+	//Update
+	public ResturauntHobby update(Long id, ResturauntHobby rest) {
+		Optional<ResturauntHobby> updateDish = this.repo.findById(id);
+		updateDish.get().setId(id);
+		return this.repo.save(rest);
+	}
+	
+	
 }
+
+
