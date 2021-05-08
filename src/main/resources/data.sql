@@ -1,0 +1,1 @@
+INSERT INTO `restaurant_hobby` (`dish`,`location`,`rating`,`restaurant_name`)VALUES('Chicken and Mushroom Risotto','London,UK',71,'Vapianos');
