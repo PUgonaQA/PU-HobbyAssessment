@@ -44,14 +44,13 @@ public class ResturauntHobbyController {
 	}
 	
 	@DeleteMapping("/remove/{id}")
-	public ResturauntHobby removeDish(@PathVariable Long id) {
-		this.service.remove(id);
-		return this.service.getById(id);
+	public ResponseEntity<Boolean> removeDish(@PathVariable Long id) {
+		return ResponseEntity.ok(this.service.remove(id));
 	}
 	
 	@PutMapping("/update/{id}")
-	public ResponseEntity<ResturauntHobby> updateDish(@PathVariable Long id, @RequestBody ResturauntHobby rest) {
-		return new ResponseEntity<ResturauntHobby>(this.service.update(id, rest), HttpStatus.ACCEPTED);
+	public ResponseEntity<ResturauntHobby> updateDish(@PathVariable(value = "id") Long id, @RequestBody ResturauntHobby rest) {
+		return ResponseEntity.ok(this.service.update(id, rest));
 	}
-
+//	(this.service.update(id, rest), HttpStatus.ACCEPTED)
 }

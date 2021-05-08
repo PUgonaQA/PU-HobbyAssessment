@@ -34,14 +34,24 @@ public class ResturauntHobbyService {
 	//Delete
 	public boolean remove(Long id) {
 		this.repo.deleteById(id);
-		return this.repo.existsById(id);
+		boolean exists = this.repo.existsById(id);
+		return !exists;
 	}
 
 	//Update
 	public ResturauntHobby update(Long id, ResturauntHobby rest) {
-		Optional<ResturauntHobby> updateDish = this.repo.findById(id);
-		updateDish.get().setId(id);
-		return this.repo.save(rest);
+//		Optional<ResturauntHobby> updateDish = this.repo.findById(id);
+//		updateDish.get(); 
+		Optional<ResturauntHobby> existingOptional = repo.findById(id);
+		ResturauntHobby existing = existingOptional.get();
+		
+		existing.setId(id);
+		existing.setDish(rest.getDish());
+		existing.setLocation(rest.getLocation());
+		existing.setRating(rest.getRating());
+		existing.setRestaurantName(rest.getRestaurantName());
+				
+		return this.repo.save(existing);
 	}
 	
 	
