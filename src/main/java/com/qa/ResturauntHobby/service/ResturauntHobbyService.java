@@ -28,7 +28,10 @@ public class ResturauntHobbyService {
 	// getById needed to delete or update a field in the table
 	public ResturauntHobby getById(Long id) {
 		Optional<ResturauntHobby> optionalDish = this.repo.findById(id);
-		return optionalDish.get();
+		if(optionalDish.isPresent()) {
+			return optionalDish.get();
+		}
+		return null;
 	}
 	
 	//Delete
@@ -40,18 +43,31 @@ public class ResturauntHobbyService {
 
 	//Update
 	public ResturauntHobby update(Long id, ResturauntHobby rest) {
-//		Optional<ResturauntHobby> updateDish = this.repo.findById(id);
-//		updateDish.get(); 
 		Optional<ResturauntHobby> existingOptional = repo.findById(id);
-		ResturauntHobby existing = existingOptional.get();
 		
-		existing.setId(id);
-		existing.setDish(rest.getDish());
-		existing.setLocation(rest.getLocation());
-		existing.setRating(rest.getRating());
-		existing.setRestaurantName(rest.getRestaurantName());
-				
-		return this.repo.save(existing);
+		if(existingOptional.isPresent()) {
+			
+			ResturauntHobby existing = existingOptional.get();
+			
+			existing.setId(id);
+			existing.setDish(rest.getDish());
+			existing.setLocation(rest.getLocation());
+			existing.setRating(rest.getRating());
+			existing.setRestaurantName(rest.getRestaurantName());
+					
+			return this.repo.save(existing);
+//			return existingOptional.get();
+		}
+//		ResturauntHobby existing = existingOptional.get();
+//		
+//		existing.setId(id);
+//		existing.setDish(rest.getDish());
+//		existing.setLocation(rest.getLocation());
+//		existing.setRating(rest.getRating());
+//		existing.setRestaurantName(rest.getRestaurantName());
+//				
+//		return this.repo.save(existing);
+		return null;
 	}
 	
 	
