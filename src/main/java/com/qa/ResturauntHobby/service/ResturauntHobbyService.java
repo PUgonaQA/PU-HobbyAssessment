@@ -46,7 +46,6 @@ public class ResturauntHobbyService {
 		Optional<ResturauntHobby> existingOptional = repo.findById(id);
 		
 		if(existingOptional.isPresent()) {
-			
 			ResturauntHobby existing = existingOptional.get();
 			
 			existing.setId(id);
@@ -56,17 +55,7 @@ public class ResturauntHobbyService {
 			existing.setRestaurantName(rest.getRestaurantName());
 					
 			return this.repo.save(existing);
-//			return existingOptional.get();
 		}
-//		ResturauntHobby existing = existingOptional.get();
-//		
-//		existing.setId(id);
-//		existing.setDish(rest.getDish());
-//		existing.setLocation(rest.getLocation());
-//		existing.setRating(rest.getRating());
-//		existing.setRestaurantName(rest.getRestaurantName());
-//				
-//		return this.repo.save(existing);
 		return null;
 	}
 	
