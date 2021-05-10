@@ -8,4 +8,5 @@ import com.qa.ResturauntHobby.domain.ResturauntHobby;
 @Repository //Logic layer entity Repository  
 public interface ResturauntHobbyRepo extends JpaRepository<ResturauntHobby, Long> {
 
+
 }

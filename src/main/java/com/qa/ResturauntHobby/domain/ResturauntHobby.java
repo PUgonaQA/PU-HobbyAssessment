@@ -5,8 +5,9 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.validation.constraints.NotNull;
 
-import com.sun.istack.NotNull;
+
 
 @Entity
 @Table(name = "Restaurant_Hobby")
@@ -53,8 +54,7 @@ public class ResturauntHobby {
 	public ResturauntHobby() {
 	}
 
-	
-	
+
 	//Getters and setters for the table objects
 	public Long getId() {
 		return id;
