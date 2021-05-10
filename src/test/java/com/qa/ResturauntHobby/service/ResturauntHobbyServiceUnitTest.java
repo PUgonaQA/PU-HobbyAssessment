@@ -14,7 +14,7 @@ import com.qa.ResturauntHobby.domain.ResturauntHobby;
 import com.qa.ResturauntHobby.repo.ResturauntHobbyRepo;
 
 @SpringBootTest
-public class ResturauntHobbyServiceUnitTest {
+class ResturauntHobbyServiceUnitTest {
 	
 	@Autowired
 	private ResturauntHobbyService service;
@@ -67,7 +67,7 @@ public class ResturauntHobbyServiceUnitTest {
 		ResturauntHobby dominos = new ResturauntHobby(id, "Dominos", "London UK", "Veggie Pizza", 55);
 		
 		Optional<ResturauntHobby> optDominos = Optional.of(dominos);
-		assertThat(optDominos.isPresent()); 
+		assertThat(optDominos).isPresent(); 
 		
 		Mockito.when(this.repo.findById(id)).thenReturn(optDominos);
 		
@@ -84,7 +84,7 @@ public class ResturauntHobbyServiceUnitTest {
 				newValues.getLocation(), newValues.getDish(), newValues.getRating()); 
 		
 		Optional<ResturauntHobby> optTgi = Optional.of(tgi);
-		assertThat(optTgi.isPresent()); 
+		assertThat(optTgi).isPresent(); 
 		
 		Mockito.when(this.repo.findById(id)).thenReturn(optTgi);
         Mockito.when(this.repo.save(updatedTgi)).thenReturn(updatedTgi);

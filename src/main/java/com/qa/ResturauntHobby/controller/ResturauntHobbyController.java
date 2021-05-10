@@ -29,7 +29,7 @@ public class ResturauntHobbyController {
 	//Create (CRUD)
 	@PostMapping("/create")
 	public ResponseEntity<ResturauntHobby> createDish(@RequestBody ResturauntHobby resturauntHobby) {
-		return new ResponseEntity<ResturauntHobby>(this.service.create(resturauntHobby),HttpStatus.CREATED);
+		return new ResponseEntity<>(this.service.create(resturauntHobby),HttpStatus.CREATED);
 	}
 	
 	//Read (CRUD)

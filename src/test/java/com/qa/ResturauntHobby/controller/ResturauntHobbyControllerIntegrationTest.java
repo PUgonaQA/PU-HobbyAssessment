@@ -24,7 +24,7 @@ import com.qa.ResturauntHobby.domain.ResturauntHobby;
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
 @AutoConfigureMockMvc
 @Sql(scripts = {"classpath:schema.sql","classpath:data.sql"}, executionPhase = ExecutionPhase.BEFORE_TEST_METHOD)
-public class ResturauntHobbyControllerIntegrationTest {
+class ResturauntHobbyControllerIntegrationTest {
 	
 	@Autowired
 	private MockMvc mockMVC;
