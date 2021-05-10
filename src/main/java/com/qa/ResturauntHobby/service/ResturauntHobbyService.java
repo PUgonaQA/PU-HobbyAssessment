@@ -38,7 +38,7 @@ public class ResturauntHobbyService {
 	public boolean remove(Long id) {
 		this.repo.deleteById(id);
 		boolean exists = this.repo.existsById(id);
-		return !exists;
+		return !exists; 
 	}
 
 	//Update
@@ -54,7 +54,7 @@ public class ResturauntHobbyService {
 			existing.setRating(rest.getRating());
 			existing.setRestaurantName(rest.getRestaurantName());
 					
-			return this.repo.save(existing);
+			return this.repo.save(existing); 
 		}
 		return null;
 	}
