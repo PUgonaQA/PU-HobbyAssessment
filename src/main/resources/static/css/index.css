@@ -1,0 +1,43 @@
+body {
+    font-family: 'Abel', sans-serif;
+    align-content: center;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+h1 {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+h3 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.Headings {
+    font-family: 'Poppins', sans-serif;
+    background-color: #4e535c;
+    color: white;
+}
+.rowmb-3 {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.Form1 {
+    line-height: 0.6;
+    background-color: #4e535c34;
+}
+
+.form-grouprow {
+    padding-top: 3px;
+    padding-bottom: 7px;
+}
+
+.FormLabel {
+    padding-top: 11px;
+    font-size: 14px;
+}
+
+#button {
+    background-color: rgb(216, 100, 6);
+    border-color: #ffffff;
+}
