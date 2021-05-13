@@ -53,12 +53,12 @@
                 </div>
                 <div class="form-grouprow">
                     <div class="col-sm-10">
-                      <button type="submit" class="btn btn-primary" id="button">  Create  </button>
-                      <button type="reset" class="btn btn-primary" id="button">  Reset  </button>
+                        <button type="submit" class="btn btn-primary" id="button"> Create </button>
+                        <button type="reset" class="btn btn-primary" id="button"> Reset </button>
                     </div>
                 </div>
             </form>
-            
+
         </div>
         <br>
 
@@ -76,24 +76,13 @@
                         <th>Functions</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr th:each="Restaurant : ${restaurant_name}">
-                        <td th:text="${.id}">ID</td>
-                        <td th:text="${.restaurant_name}">Restaurant Name</td>
-                        <td th:text="${.location}">Location</td>
-                        <td th:text="${.dish}">Dish</td>
-                        <td th:text="${.rating}">Rating</td>
-                        <td>
-                            <a th:href="@{'/update/' + ${.id}}">Update</a>
-                            <a th:href="@{'/delete/' + ${.id}}">Delete</a>
-                        </td>
-                    </tr>
-                </tbody>
+                <tbody id="data"></tbody>
             </table>
         </div>
     </div>
 
 </body>
+
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
@@ -103,5 +92,9 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+    integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+    crossorigin="anonymous"></script>
+<script src="./javascript/index.js"></script>
 
 </html>
