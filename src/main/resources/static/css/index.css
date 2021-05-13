@@ -12,6 +12,11 @@ h3 {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+h4 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 .Headings {
     font-family: 'Poppins', sans-serif;
     background-color: #4e535c;
@@ -28,8 +33,8 @@ h3 {
 }
 
 .form-grouprow {
-    padding-top: 3px;
-    padding-bottom: 7px;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 .FormLabel {
@@ -41,3 +46,8 @@ h3 {
     background-color: rgb(216, 100, 6);
     border-color: #ffffff;
 }
+
+#tableHeader {
+    background-color: #4e535c34;
+}
+
