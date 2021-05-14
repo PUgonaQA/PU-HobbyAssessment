@@ -52,5 +52,5 @@ public class ResturauntHobbyController {
 	public ResponseEntity<ResturauntHobby> updateDish(@PathVariable(value = "id") Long id, @RequestBody ResturauntHobby rest) {
 		return ResponseEntity.ok(this.service.update(id, rest));
 	}
-//	(this.service.update(id, rest), HttpStatus.ACCEPTED)
+
 }

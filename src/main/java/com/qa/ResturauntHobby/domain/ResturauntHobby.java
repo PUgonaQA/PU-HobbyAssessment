@@ -10,7 +10,7 @@ import javax.validation.constraints.NotNull;
 
 
 @Entity
-@Table(name = "Restaurant_Hobby")
+@Table(name = "restaurant_hobby")
 public class ResturauntHobby {
 	
 	@Id //Specifies the primary key for the table
