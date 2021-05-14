@@ -112,14 +112,14 @@ Carried out also through Java Eclipse.
 * [Eclipse IDE] (https://www.oracle.com/uk/java/) - Back-end programming Language
 * [Mozilla Firefox] (https://www.oracle.com/uk/java/) - Useful for using Selenium to test the API. 
 * [Google Chrome] (https://www.oracle.com/uk/java/) - Selenium Tests were run through this browser.
-* [Selenium IDE] (https://www.postman.com/) - 
-* [PostMan] () - API HTTP request methods and tesing
+* [Selenium IDE] (https://www.postman.com/) - Web automation testing
+* [PostMan] (https://www.postman.com/) - API HTTP request methods and tesing
 
 
 
 ### Authors
 
-* **Philip Ugona** - Completed Hobby Project
+* **Philip Ugona** - Completed the Restaurant Hobby API
 
 
 

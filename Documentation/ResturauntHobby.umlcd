@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_oI9JkLT-EeuhEpRjlh2CRA">
+  <modelElement href="ResturauntHobby.uml#_oRpLgbT-EeuhEpRjlh2CRA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_oaj28LT-EeuhEpRjlh2CRA" sourceAnchor="277.0,0.0" targetAnchor="500.0,83.0" target="_oax5YLT-EeuhEpRjlh2CRA" source="_oakeALT-EeuhEpRjlh2CRA">
+    <modelElement href="ResturauntHobby.uml#_oXnQoLT-EeuhEpRjlh2CRA"/>
+    <bendpoints xmi:id="_okAG0LT-EeuhEpRjlh2CRA" sourceY="-138" targetX="375"/>
+    <stereotypes xmi:id="_oaj28bT-EeuhEpRjlh2CRA" name="Reference">
+      <modelElement href="ResturauntHobby.uml#_oXps4LT-EeuhEpRjlh2CRA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_oaj28rT-EeuhEpRjlh2CRA" text="">
+      <visualProperties xmi:id="_okB8ALT-EeuhEpRjlh2CRA" position="-27.073997005920546,64.96329280678736"/>
+    </nameVisual>
+    <sourceRole xmi:id="_oaj287T-EeuhEpRjlh2CRA" aggregationKind="NONE" name="">
+      <modelElement href="ResturauntHobby.uml#_oXnQobT-EeuhEpRjlh2CRA"/>
+      <visualProperties xmi:id="_okBU8bT-EeuhEpRjlh2CRA" position="-19.285107853697696,-72.83499014479602"/>
+      <visibility xmi:id="_oaj29LT-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_oaj29bT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_oaj29rT-EeuhEpRjlh2CRA" aggregationKind="NONE" name="service" navigable="true">
+      <modelElement href="ResturauntHobby.uml#_oXYAELT-EeuhEpRjlh2CRA"/>
+      <visualProperties xmi:id="_okB8AbT-EeuhEpRjlh2CRA" position="338.4597374460444,45.05418676216644"/>
+      <visibility xmi:id="_oaj297T-EeuhEpRjlh2CRA" label="-"/>
+      <cardinality xmi:id="_oaj2-LT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_oau2ELT-EeuhEpRjlh2CRA" sourceAnchor="250.0,0.0" targetAnchor="0.0,31.0" target="_oavdJrT-EeuhEpRjlh2CRA" source="_oax5YLT-EeuhEpRjlh2CRA">
+    <modelElement href="ResturauntHobby.uml#_oXps4bT-EeuhEpRjlh2CRA"/>
+    <bendpoints xmi:id="_okAG0bT-EeuhEpRjlh2CRA" sourceY="-85" targetX="-356"/>
+    <stereotypes xmi:id="_oavdIbT-EeuhEpRjlh2CRA" name="Reference">
+      <modelElement href="ResturauntHobby.uml#_oXswMLT-EeuhEpRjlh2CRA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_oau2EbT-EeuhEpRjlh2CRA" text="">
+      <visualProperties xmi:id="_okDKILT-EeuhEpRjlh2CRA" position="-15.433198939789463,35.286395222786346"/>
+    </nameVisual>
+    <sourceRole xmi:id="_oau2ErT-EeuhEpRjlh2CRA" aggregationKind="NONE" name="">
+      <modelElement href="ResturauntHobby.uml#_oXps4rT-EeuhEpRjlh2CRA"/>
+      <visualProperties xmi:id="_okCjELT-EeuhEpRjlh2CRA" position="-0.6706392565990882,-65.07122940516892"/>
+      <visibility xmi:id="_oavdI7T-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_oavdIrT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_oavdILT-EeuhEpRjlh2CRA" aggregationKind="NONE" name="repo" navigable="true">
+      <modelElement href="ResturauntHobby.uml#_oXbDYbT-EeuhEpRjlh2CRA"/>
+      <visualProperties xmi:id="_okDKIbT-EeuhEpRjlh2CRA" position="-368.4088116497792,17.708084596247097"/>
+      <visibility xmi:id="_oavdJbT-EeuhEpRjlh2CRA" label="-"/>
+      <cardinality xmi:id="_oavdJLT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_oa2K0LT-EeuhEpRjlh2CRA" sourceAnchor="100.0,0.0" targetAnchor="277.0,166.0" target="_oakeALT-EeuhEpRjlh2CRA" source="_oa7DULT-EeuhEpRjlh2CRA">
+    <modelElement href="ResturauntHobby.uml#_oXswMbT-EeuhEpRjlh2CRA"/>
+    <bendpoints xmi:id="_okAt4LT-EeuhEpRjlh2CRA" sourceY="-17" targetX="770" targetY="38"/>
+    <bendpoints xmi:id="_okAt4bT-EeuhEpRjlh2CRA" sourceX="-770" sourceY="-17" targetY="38"/>
+    <stereotypes xmi:id="_oa5OI7T-EeuhEpRjlh2CRA" name="Reference">
+      <modelElement href="ResturauntHobby.uml#_oXvMcLT-EeuhEpRjlh2CRA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_oa5OILT-EeuhEpRjlh2CRA" text="">
+      <visualProperties xmi:id="_okDxMbT-EeuhEpRjlh2CRA" position="363.8461616411863,-116.08514013302425"/>
+    </nameVisual>
+    <sourceRole xmi:id="_oa5OIbT-EeuhEpRjlh2CRA" aggregationKind="NONE" name="">
+      <modelElement href="ResturauntHobby.uml#_oXswMrT-EeuhEpRjlh2CRA"/>
+      <visualProperties xmi:id="_okDxMLT-EeuhEpRjlh2CRA" position="-15.238033951488347,-64.53121257548509"/>
+      <visibility xmi:id="_oa51M7T-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_oa51MrT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_oa5OIrT-EeuhEpRjlh2CRA" aggregationKind="NONE" name="hobbyController" navigable="true">
+      <modelElement href="ResturauntHobby.uml#_oXbqcLT-EeuhEpRjlh2CRA"/>
+      <visualProperties xmi:id="_okEYQLT-EeuhEpRjlh2CRA" position="711.1390514297876,-178.55557440536006"/>
+      <visibility xmi:id="_oa51NbT-EeuhEpRjlh2CRA" label="-"/>
+      <cardinality xmi:id="_oa51NLT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_oa4nELT-EeuhEpRjlh2CRA" sourceAnchor="0.0,35.0" targetAnchor="220.0,166.0" target="_oax5YLT-EeuhEpRjlh2CRA" source="_oa7DULT-EeuhEpRjlh2CRA">
+    <modelElement href="ResturauntHobby.uml#_oXvMcbT-EeuhEpRjlh2CRA"/>
+    <bendpoints xmi:id="_okAt4rT-EeuhEpRjlh2CRA" sourceX="-52" targetX="1273" targetY="311"/>
+    <bendpoints xmi:id="_okAt47T-EeuhEpRjlh2CRA" sourceX="-52" sourceY="296" targetX="1273" targetY="607"/>
+    <bendpoints xmi:id="_okAt5LT-EeuhEpRjlh2CRA" sourceX="-1325" sourceY="296" targetY="607"/>
+    <stereotypes xmi:id="_oa51MbT-EeuhEpRjlh2CRA" name="Reference">
+      <modelElement href="ResturauntHobby.uml#_oXyPwLT-EeuhEpRjlh2CRA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_oa5OJLT-EeuhEpRjlh2CRA" text="">
+      <visualProperties xmi:id="_okE_ULT-EeuhEpRjlh2CRA" position="-88.27257792805702,-302.01524188998235"/>
+    </nameVisual>
+    <sourceRole xmi:id="_oa5OJbT-EeuhEpRjlh2CRA" aggregationKind="NONE" name="">
+      <modelElement href="ResturauntHobby.uml#_oXvMcrT-EeuhEpRjlh2CRA"/>
+      <visualProperties xmi:id="_okEYQbT-EeuhEpRjlh2CRA" position="-65.85811164023787,-15.156696281361405"/>
+      <visibility xmi:id="_oa6cQbT-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_oa6cQLT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_oa51MLT-EeuhEpRjlh2CRA" aggregationKind="NONE" name="hobbyService" navigable="true">
+      <modelElement href="ResturauntHobby.uml#_oXbqc7T-EeuhEpRjlh2CRA"/>
+      <visualProperties xmi:id="_okE_UbT-EeuhEpRjlh2CRA" position="1098.4132086835782,296.00999672899843"/>
+      <visibility xmi:id="_oa6cQ7T-EeuhEpRjlh2CRA" label="-"/>
+      <cardinality xmi:id="_oa6cQrT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_oa-GoLT-EeuhEpRjlh2CRA" source="_oa-tuLT-EeuhEpRjlh2CRA">
+    <modelElement href="ResturauntHobby.uml#_oXyPwbT-EeuhEpRjlh2CRA"/>
+    <stereotypes xmi:id="_oa-GobT-EeuhEpRjlh2CRA" name="Reference">
+      <modelElement href="ResturauntHobby.uml#_oX0sALT-EeuhEpRjlh2CRA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_oa-GorT-EeuhEpRjlh2CRA" text=""/>
+    <sourceRole xmi:id="_oa-Go7T-EeuhEpRjlh2CRA" aggregationKind="NONE" name="">
+      <modelElement href="ResturauntHobby.uml#_oXyPwrT-EeuhEpRjlh2CRA"/>
+      <visibility xmi:id="_oa-GpLT-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_oa-GpbT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_oa-GprT-EeuhEpRjlh2CRA" aggregationKind="NONE" name="mockMVC" navigable="true">
+      <modelElement href="ResturauntHobby.uml#_oXcRgrT-EeuhEpRjlh2CRA"/>
+      <visibility xmi:id="_oa-Gp7T-EeuhEpRjlh2CRA" label="-"/>
+      <cardinality xmi:id="_oa-GqLT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_oa-GqbT-EeuhEpRjlh2CRA" source="_oa-tuLT-EeuhEpRjlh2CRA">
+    <modelElement href="ResturauntHobby.uml#_oX0sAbT-EeuhEpRjlh2CRA"/>
+    <stereotypes xmi:id="_oa-tsLT-EeuhEpRjlh2CRA" name="Reference">
+      <modelElement href="ResturauntHobby.uml#_oX3IQLT-EeuhEpRjlh2CRA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_oa-tsbT-EeuhEpRjlh2CRA" text=""/>
+    <sourceRole xmi:id="_oa-tsrT-EeuhEpRjlh2CRA" aggregationKind="NONE" name="">
+      <modelElement href="ResturauntHobby.uml#_oX0sArT-EeuhEpRjlh2CRA"/>
+      <visibility xmi:id="_oa-ts7T-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_oa-ttLT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_oa-ttbT-EeuhEpRjlh2CRA" aggregationKind="NONE" name="mapper" navigable="true">
+      <modelElement href="ResturauntHobby.uml#_oXcRhbT-EeuhEpRjlh2CRA"/>
+      <visibility xmi:id="_oa-ttrT-EeuhEpRjlh2CRA" label="-"/>
+      <cardinality xmi:id="_oa-tt7T-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_obDmMLT-EeuhEpRjlh2CRA" source="_obENQLT-EeuhEpRjlh2CRA">
+    <modelElement href="ResturauntHobby.uml#_oX3IQbT-EeuhEpRjlh2CRA"/>
+    <stereotypes xmi:id="_obDmMbT-EeuhEpRjlh2CRA" name="Reference">
+      <modelElement href="ResturauntHobby.uml#_oX6LkLT-EeuhEpRjlh2CRA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_obDmMrT-EeuhEpRjlh2CRA" text=""/>
+    <sourceRole xmi:id="_obDmM7T-EeuhEpRjlh2CRA" aggregationKind="NONE" name="">
+      <modelElement href="ResturauntHobby.uml#_oX3IQrT-EeuhEpRjlh2CRA"/>
+      <visibility xmi:id="_obDmNLT-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_obDmNbT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_obDmNrT-EeuhEpRjlh2CRA" aggregationKind="NONE" name="heading" navigable="true">
+      <modelElement href="ResturauntHobby.uml#_oXc4krT-EeuhEpRjlh2CRA"/>
+      <visibility xmi:id="_obDmN7T-EeuhEpRjlh2CRA" label="-"/>
+      <cardinality xmi:id="_obDmOLT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_obGCcLT-EeuhEpRjlh2CRA" source="_obGpgLT-EeuhEpRjlh2CRA">
+    <modelElement href="ResturauntHobby.uml#_oX6LkbT-EeuhEpRjlh2CRA"/>
+    <stereotypes xmi:id="_obGCcbT-EeuhEpRjlh2CRA" name="Reference">
+      <modelElement href="ResturauntHobby.uml#_oX8n0LT-EeuhEpRjlh2CRA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_obGCcrT-EeuhEpRjlh2CRA" text=""/>
+    <sourceRole xmi:id="_obGCc7T-EeuhEpRjlh2CRA" aggregationKind="NONE" name="">
+      <modelElement href="ResturauntHobby.uml#_oX6LkrT-EeuhEpRjlh2CRA"/>
+      <visibility xmi:id="_obGCdLT-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_obGCdbT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_obGCdrT-EeuhEpRjlh2CRA" aggregationKind="NONE" name="driver" navigable="true">
+      <modelElement href="ResturauntHobby.uml#_oXdfp7T-EeuhEpRjlh2CRA"/>
+      <visibility xmi:id="_obGCd7T-EeuhEpRjlh2CRA" label="-"/>
+      <cardinality xmi:id="_obGCeLT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_obJFwLT-EeuhEpRjlh2CRA" sourceAnchor="0.0,73.0" targetAnchor="250.0,166.0" target="_oax5YLT-EeuhEpRjlh2CRA" source="_obMJELT-EeuhEpRjlh2CRA">
+    <modelElement href="ResturauntHobby.uml#_oX8n0bT-EeuhEpRjlh2CRA"/>
+    <bendpoints xmi:id="_okAt5bT-EeuhEpRjlh2CRA" sourceX="-750" targetY="407"/>
+    <stereotypes xmi:id="_obK68LT-EeuhEpRjlh2CRA" name="Reference">
+      <modelElement href="ResturauntHobby.uml#_oX_rILT-EeuhEpRjlh2CRA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_obKT4LT-EeuhEpRjlh2CRA" text="">
+      <visualProperties xmi:id="_okGNcLT-EeuhEpRjlh2CRA" position="710.2998879483788,1.4871155284590714"/>
+    </nameVisual>
+    <sourceRole xmi:id="_obKT4bT-EeuhEpRjlh2CRA" aggregationKind="NONE" name="">
+      <modelElement href="ResturauntHobby.uml#_oX8n0rT-EeuhEpRjlh2CRA"/>
+      <visualProperties xmi:id="_okFmYLT-EeuhEpRjlh2CRA" position="-60.435402584525946,-10.818383131286964"/>
+      <visibility xmi:id="_obLiAbT-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_obLiALT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_obKT4rT-EeuhEpRjlh2CRA" aggregationKind="NONE" name="service" navigable="true">
+      <modelElement href="ResturauntHobby.uml#_oXeGsLT-EeuhEpRjlh2CRA"/>
+      <visualProperties xmi:id="_okGNcbT-EeuhEpRjlh2CRA" position="724.4497750471045,395.7841412456904"/>
+      <visibility xmi:id="_obLiA7T-EeuhEpRjlh2CRA" label="-"/>
+      <cardinality xmi:id="_obLiArT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_obJs0LT-EeuhEpRjlh2CRA" sourceAnchor="167.0,0.0" targetAnchor="138.0,31.0" target="_oavdJrT-EeuhEpRjlh2CRA" source="_obMJELT-EeuhEpRjlh2CRA">
+    <modelElement href="ResturauntHobby.uml#_oX_rIbT-EeuhEpRjlh2CRA"/>
+    <bendpoints xmi:id="_okBU8LT-EeuhEpRjlh2CRA" sourceY="-585" targetX="423"/>
+    <stereotypes xmi:id="_obK69LT-EeuhEpRjlh2CRA" name="Reference">
+      <modelElement href="ResturauntHobby.uml#_oYCHYLT-EeuhEpRjlh2CRA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_obK68bT-EeuhEpRjlh2CRA" text="">
+      <visualProperties xmi:id="_okHbkLT-EeuhEpRjlh2CRA" position="-25.433339741124882,515.8829330960814"/>
+    </nameVisual>
+    <sourceRole xmi:id="_obK68rT-EeuhEpRjlh2CRA" aggregationKind="NONE" name="">
+      <modelElement href="ResturauntHobby.uml#_oX_rIrT-EeuhEpRjlh2CRA"/>
+      <visualProperties xmi:id="_okG0gLT-EeuhEpRjlh2CRA" position="-18.442759391555512,-75.9111974860939"/>
+      <visibility xmi:id="_obLiBrT-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_obLiBbT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_obK687T-EeuhEpRjlh2CRA" aggregationKind="NONE" name="repo" navigable="true">
+      <modelElement href="ResturauntHobby.uml#_oXeGs7T-EeuhEpRjlh2CRA"/>
+      <visualProperties xmi:id="_okHbkbT-EeuhEpRjlh2CRA" position="393.0099170205899,501.2916822720548"/>
+      <visibility xmi:id="_obLiCLT-EeuhEpRjlh2CRA" label="-"/>
+      <cardinality xmi:id="_obLiB7T-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_oagzoLT-EeuhEpRjlh2CRA" name="ResturauntHobbyApplication">
+    <modelElement href="ResturauntHobby.uml#_oSSEsLT-EeuhEpRjlh2CRA"/>
+    <visualProperties xmi:id="_oagzobT-EeuhEpRjlh2CRA" position="30.0,30.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_oagzorT-EeuhEpRjlh2CRA" name="LegacyStyledElement">
+      <modelElement href="ResturauntHobby.uml#_oSSrwLT-EeuhEpRjlh2CRA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_oagzo7T-EeuhEpRjlh2CRA" name="Annotations">
+      <modelElement href="ResturauntHobby.uml#_oSUg8LT-EeuhEpRjlh2CRA"/>
+    </stereotypes>
+    <visibility xmi:id="_oagzpLT-EeuhEpRjlh2CRA" label="+"/>
+    <operations xmi:id="_oagzpbT-EeuhEpRjlh2CRA" name="main" staticOperation="true">
+      <modelElement href="ResturauntHobby.uml#_oST54bT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_oagzprT-EeuhEpRjlh2CRA" name="StyledElement">
+        <modelElement href="ResturauntHobby.uml#_oST547T-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_oagzp7T-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_oagzqLT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_oagzqbT-EeuhEpRjlh2CRA" name="args">
+        <modelElement href="ResturauntHobby.uml#_oST54rT-EeuhEpRjlh2CRA"/>
+        <cardinality xmi:id="_oagzqrT-EeuhEpRjlh2CRA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_oagzq7T-EeuhEpRjlh2CRA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_oakeALT-EeuhEpRjlh2CRA" name="ResturauntHobbyController" associationsIn="_oa2K0LT-EeuhEpRjlh2CRA" associationsOut="_oaj28LT-EeuhEpRjlh2CRA">
+    <modelElement href="ResturauntHobby.uml#_oSUg8rT-EeuhEpRjlh2CRA"/>
+    <visualProperties xmi:id="_oakeAbT-EeuhEpRjlh2CRA" position="-940.0,264.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_oakeArT-EeuhEpRjlh2CRA" name="LegacyStyledElement">
+      <modelElement href="ResturauntHobby.uml#_oSVIALT-EeuhEpRjlh2CRA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_oakeA7T-EeuhEpRjlh2CRA" name="Annotations">
+      <modelElement href="ResturauntHobby.uml#_oSYLULT-EeuhEpRjlh2CRA"/>
+    </stereotypes>
+    <visibility xmi:id="_oakeBLT-EeuhEpRjlh2CRA" label="+"/>
+    <attributes xmi:id="_oakeBbT-EeuhEpRjlh2CRA" name="service">
+      <modelElement href="ResturauntHobby.uml#_oXYAELT-EeuhEpRjlh2CRA"/>
+      <visibility xmi:id="_oakeBrT-EeuhEpRjlh2CRA" label="-"/>
+      <cardinality xmi:id="_oakeB7T-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <type xmi:id="_oakeCLT-EeuhEpRjlh2CRA" name="ResturauntHobbyService">
+        <modelElement href="ResturauntHobby.uml#_oSoC8LT-EeuhEpRjlh2CRA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_oakeCbT-EeuhEpRjlh2CRA" name="getResturauntHobby">
+      <modelElement href="ResturauntHobby.uml#_oSVvELT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_oakeCrT-EeuhEpRjlh2CRA" name="Generics">
+        <modelElement href="ResturauntHobby.uml#_oSWWILT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_oakeC7T-EeuhEpRjlh2CRA" name="Annotations">
+        <modelElement href="ResturauntHobby.uml#_oSW9MLT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_oakeDLT-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_oakeDbT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oakeDrT-EeuhEpRjlh2CRA">
+        <modelElement href="ResturauntHobby.uml#_oW9wYLT-EeuhEpRjlh2CRA"/>
+        <type xmi:id="_oakeD7T-EeuhEpRjlh2CRA" name="ResponseEntity">
+          <modelElement href="ResturauntHobby.uml#_oUg5UbT-EeuhEpRjlh2CRA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oakeELT-EeuhEpRjlh2CRA" name="ResturauntHobbyController">
+      <modelElement href="ResturauntHobby.uml#_oU9lQLT-EeuhEpRjlh2CRA"/>
+      <keywords xmi:id="_oakeEbT-EeuhEpRjlh2CRA" keyword="create"/>
+      <stereotypes xmi:id="_oakeErT-EeuhEpRjlh2CRA" name="StyledElement">
+        <modelElement href="ResturauntHobby.uml#_oU-MULT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_oakeE7T-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_oakeFLT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oakeFbT-EeuhEpRjlh2CRA">
+        <modelElement href="ResturauntHobby.uml#_oU9lRLT-EeuhEpRjlh2CRA"/>
+        <type xmi:id="_oakeFrT-EeuhEpRjlh2CRA" name="ResturauntHobbyController">
+          <modelElement href="ResturauntHobby.uml#_oSUg8rT-EeuhEpRjlh2CRA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oakeF7T-EeuhEpRjlh2CRA" name="service">
+        <modelElement href="ResturauntHobby.uml#_oU9lQbT-EeuhEpRjlh2CRA"/>
+        <cardinality xmi:id="_oakeGLT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+        <type xmi:id="_oakeGbT-EeuhEpRjlh2CRA" name="ResturauntHobbyService">
+          <modelElement href="ResturauntHobby.uml#_oSoC8LT-EeuhEpRjlh2CRA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oakeGrT-EeuhEpRjlh2CRA" name="createDish">
+      <modelElement href="ResturauntHobby.uml#_oU-MUbT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_oakeG7T-EeuhEpRjlh2CRA" name="Generics">
+        <modelElement href="ResturauntHobby.uml#_oVBPoLT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_oakeHLT-EeuhEpRjlh2CRA" name="Annotations">
+        <modelElement href="ResturauntHobby.uml#_oVB2srT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_oakeHbT-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_oakeHrT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oakeH7T-EeuhEpRjlh2CRA">
+        <modelElement href="ResturauntHobby.uml#_oW9JULT-EeuhEpRjlh2CRA"/>
+        <type xmi:id="_oakeILT-EeuhEpRjlh2CRA" name="ResponseEntity">
+          <modelElement href="ResturauntHobby.uml#_oUg5UbT-EeuhEpRjlh2CRA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oakeIbT-EeuhEpRjlh2CRA" name="resturauntHobby">
+        <modelElement href="ResturauntHobby.uml#_oU-MUrT-EeuhEpRjlh2CRA"/>
+        <cardinality xmi:id="_oakeIrT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+        <type xmi:id="_oakeI7T-EeuhEpRjlh2CRA" name="ResturauntHobby">
+          <modelElement href="ResturauntHobby.uml#_oSbOoLT-EeuhEpRjlh2CRA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oakeJLT-EeuhEpRjlh2CRA" name="getDishById">
+      <modelElement href="ResturauntHobby.uml#_oXAMobT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_oakeJbT-EeuhEpRjlh2CRA" name="Generics">
+        <modelElement href="ResturauntHobby.uml#_oXDP8LT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_oakeJrT-EeuhEpRjlh2CRA" name="Annotations">
+        <modelElement href="ResturauntHobby.uml#_oXDP9LT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_oakeJ7T-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_oakeKLT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oakeKbT-EeuhEpRjlh2CRA">
+        <modelElement href="ResturauntHobby.uml#_oXDP8bT-EeuhEpRjlh2CRA"/>
+        <type xmi:id="_oakeKrT-EeuhEpRjlh2CRA" name="ResponseEntity">
+          <modelElement href="ResturauntHobby.uml#_oUg5UbT-EeuhEpRjlh2CRA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oakeK7T-EeuhEpRjlh2CRA" name="id">
+        <modelElement href="ResturauntHobby.uml#_oXAzsLT-EeuhEpRjlh2CRA"/>
+        <cardinality xmi:id="_oakeLLT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+        <type xmi:id="_oakeLbT-EeuhEpRjlh2CRA" name="Long">
+          <modelElement href="ResturauntHobby.uml#_oW9wYrT-EeuhEpRjlh2CRA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oakeLrT-EeuhEpRjlh2CRA" name="removeDish">
+      <modelElement href="ResturauntHobby.uml#_oXD3ALT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_oakeL7T-EeuhEpRjlh2CRA" name="Generics">
+        <modelElement href="ResturauntHobby.uml#_oXGTQLT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_oakeMLT-EeuhEpRjlh2CRA" name="Annotations">
+        <modelElement href="ResturauntHobby.uml#_oXG6ULT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_oakeMbT-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_oakeMrT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oakeM7T-EeuhEpRjlh2CRA">
+        <modelElement href="ResturauntHobby.uml#_oXGTQbT-EeuhEpRjlh2CRA"/>
+        <type xmi:id="_oakeNLT-EeuhEpRjlh2CRA" name="ResponseEntity">
+          <modelElement href="ResturauntHobby.uml#_oUg5UbT-EeuhEpRjlh2CRA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oakeNbT-EeuhEpRjlh2CRA" name="id">
+        <modelElement href="ResturauntHobby.uml#_oXD3AbT-EeuhEpRjlh2CRA"/>
+        <cardinality xmi:id="_oakeNrT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+        <type xmi:id="_oakeN7T-EeuhEpRjlh2CRA" name="Long">
+          <modelElement href="ResturauntHobby.uml#_oW9wYrT-EeuhEpRjlh2CRA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oakeOLT-EeuhEpRjlh2CRA" name="updateDish">
+      <modelElement href="ResturauntHobby.uml#_oXG6U7T-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_oakeObT-EeuhEpRjlh2CRA" name="Generics">
+        <modelElement href="ResturauntHobby.uml#_oXJWkLT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_oakeOrT-EeuhEpRjlh2CRA" name="Annotations">
+        <modelElement href="ResturauntHobby.uml#_oXJ9pbT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_oakeO7T-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_oakePLT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oakePbT-EeuhEpRjlh2CRA">
+        <modelElement href="ResturauntHobby.uml#_oXJWkbT-EeuhEpRjlh2CRA"/>
+        <type xmi:id="_oakePrT-EeuhEpRjlh2CRA" name="ResponseEntity">
+          <modelElement href="ResturauntHobby.uml#_oUg5UbT-EeuhEpRjlh2CRA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oakeP7T-EeuhEpRjlh2CRA" name="id">
+        <modelElement href="ResturauntHobby.uml#_oXG6VLT-EeuhEpRjlh2CRA"/>
+        <cardinality xmi:id="_oakeQLT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+        <type xmi:id="_oakeQbT-EeuhEpRjlh2CRA" name="Long">
+          <modelElement href="ResturauntHobby.uml#_oW9wYrT-EeuhEpRjlh2CRA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oakeQrT-EeuhEpRjlh2CRA" name="rest">
+        <modelElement href="ResturauntHobby.uml#_oXG6VbT-EeuhEpRjlh2CRA"/>
+        <cardinality xmi:id="_oakeQ7T-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+        <type xmi:id="_oakeRLT-EeuhEpRjlh2CRA" name="ResturauntHobby">
+          <modelElement href="ResturauntHobby.uml#_oSbOoLT-EeuhEpRjlh2CRA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_oap9kLT-EeuhEpRjlh2CRA" name="ResturauntHobby">
+    <modelElement href="ResturauntHobby.uml#_oSbOoLT-EeuhEpRjlh2CRA"/>
+    <visualProperties xmi:id="_oap9kbT-EeuhEpRjlh2CRA" position="-225.0,174.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_oap9krT-EeuhEpRjlh2CRA" name="Table">
+      <modelElement href="ResturauntHobby.uml#_oSdD0LT-EeuhEpRjlh2CRA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_oap9k7T-EeuhEpRjlh2CRA" name="JPA1StyledElement">
+      <modelElement href="ResturauntHobby.uml#_oSdq4LT-EeuhEpRjlh2CRA"/>
+    </stereotypes>
+    <visibility xmi:id="_oap9lLT-EeuhEpRjlh2CRA" label="+"/>
+    <attributes xmi:id="_oap9lbT-EeuhEpRjlh2CRA" name="id">
+      <modelElement href="ResturauntHobby.uml#_oXYnILT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_oap9lrT-EeuhEpRjlh2CRA" name="PrimaryKey">
+        <modelElement href="ResturauntHobby.uml#_oXZOMLT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_oap9l7T-EeuhEpRjlh2CRA" name="GeneratedValueMapping">
+        <modelElement href="ResturauntHobby.uml#_oXZOMbT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_oap9mLT-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_oap9mbT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <type xmi:id="_oap9mrT-EeuhEpRjlh2CRA" name="Long">
+        <modelElement href="ResturauntHobby.uml#_oW9wYrT-EeuhEpRjlh2CRA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oap9m7T-EeuhEpRjlh2CRA" name="restaurantName">
+      <modelElement href="ResturauntHobby.uml#_oXZOMrT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_oap9nLT-EeuhEpRjlh2CRA" name="NotNull">
+        <modelElement href="ResturauntHobby.uml#_oXZ1QLT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_oap9nbT-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_oap9nrT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <type xmi:id="_oap9n7T-EeuhEpRjlh2CRA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oap9oLT-EeuhEpRjlh2CRA" name="location">
+      <modelElement href="ResturauntHobby.uml#_oXZ1QbT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_oap9obT-EeuhEpRjlh2CRA" name="NotNull">
+        <modelElement href="ResturauntHobby.uml#_oXZ1QrT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_oap9orT-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_oap9o7T-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <type xmi:id="_oap9pLT-EeuhEpRjlh2CRA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oap9pbT-EeuhEpRjlh2CRA" name="dish">
+      <modelElement href="ResturauntHobby.uml#_oXacULT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_oap9prT-EeuhEpRjlh2CRA" name="NotNull">
+        <modelElement href="ResturauntHobby.uml#_oXacUbT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_oap9p7T-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_oap9qLT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <type xmi:id="_oap9qbT-EeuhEpRjlh2CRA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oap9qrT-EeuhEpRjlh2CRA" name="rating">
+      <modelElement href="ResturauntHobby.uml#_oXacUrT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_oap9q7T-EeuhEpRjlh2CRA" name="NotNull">
+        <modelElement href="ResturauntHobby.uml#_oXbDYLT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_oap9rLT-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_oap9rbT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <type xmi:id="_oap9rrT-EeuhEpRjlh2CRA" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_oap9r7T-EeuhEpRjlh2CRA" name="ResturauntHobby">
+      <modelElement href="ResturauntHobby.uml#_oSfgELT-EeuhEpRjlh2CRA"/>
+      <keywords xmi:id="_oap9sLT-EeuhEpRjlh2CRA" keyword="create"/>
+      <stereotypes xmi:id="_oap9sbT-EeuhEpRjlh2CRA" name="StyledElement">
+        <modelElement href="ResturauntHobby.uml#_oSgHI7T-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_oap9srT-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_oap9s7T-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oap9tLT-EeuhEpRjlh2CRA">
+        <modelElement href="ResturauntHobby.uml#_oSgHIrT-EeuhEpRjlh2CRA"/>
+        <type xmi:id="_oap9tbT-EeuhEpRjlh2CRA" name="ResturauntHobby">
+          <modelElement href="ResturauntHobby.uml#_oSbOoLT-EeuhEpRjlh2CRA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oap9trT-EeuhEpRjlh2CRA" name="restaurantName">
+        <modelElement href="ResturauntHobby.uml#_oSfgEbT-EeuhEpRjlh2CRA"/>
+        <cardinality xmi:id="_oap9t7T-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+        <type xmi:id="_oap9uLT-EeuhEpRjlh2CRA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oap9ubT-EeuhEpRjlh2CRA" name="location">
+        <modelElement href="ResturauntHobby.uml#_oSfgErT-EeuhEpRjlh2CRA"/>
+        <cardinality xmi:id="_oap9urT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+        <type xmi:id="_oap9u7T-EeuhEpRjlh2CRA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oap9vLT-EeuhEpRjlh2CRA" name="dish">
+        <modelElement href="ResturauntHobby.uml#_oSfgE7T-EeuhEpRjlh2CRA"/>
+        <cardinality xmi:id="_oap9vbT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+        <type xmi:id="_oap9vrT-EeuhEpRjlh2CRA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oap9v7T-EeuhEpRjlh2CRA" name="rating">
+        <modelElement href="ResturauntHobby.uml#_oSfgFLT-EeuhEpRjlh2CRA"/>
+        <cardinality xmi:id="_oap9wLT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+        <type xmi:id="_oap9wbT-EeuhEpRjlh2CRA" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oap9wrT-EeuhEpRjlh2CRA" name="ResturauntHobby">
+      <modelElement href="ResturauntHobby.uml#_oSguMLT-EeuhEpRjlh2CRA"/>
+      <keywords xmi:id="_oap9w7T-EeuhEpRjlh2CRA" keyword="create"/>
+      <stereotypes xmi:id="_oap9xLT-EeuhEpRjlh2CRA" name="LegacyStyledElement">
+        <modelElement href="ResturauntHobby.uml#_oShVQrT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_oap9xbT-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_oap9xrT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oap9x7T-EeuhEpRjlh2CRA">
+        <modelElement href="ResturauntHobby.uml#_oShVQ7T-EeuhEpRjlh2CRA"/>
+        <type xmi:id="_oap9yLT-EeuhEpRjlh2CRA" name="ResturauntHobby">
+          <modelElement href="ResturauntHobby.uml#_oSbOoLT-EeuhEpRjlh2CRA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oap9ybT-EeuhEpRjlh2CRA" name="hashCode">
+      <modelElement href="ResturauntHobby.uml#_oShVRLT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_oap9yrT-EeuhEpRjlh2CRA" name="LegacyStyledElement">
+        <modelElement href="ResturauntHobby.uml#_oSh8UbT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_oap9y7T-EeuhEpRjlh2CRA" name="Annotations">
+        <modelElement href="ResturauntHobby.uml#_oSh8UrT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_oap9zLT-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_oap9zbT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oap9zrT-EeuhEpRjlh2CRA">
+        <modelElement href="ResturauntHobby.uml#_oSh8ULT-EeuhEpRjlh2CRA"/>
+        <type xmi:id="_oap9z7T-EeuhEpRjlh2CRA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oap90LT-EeuhEpRjlh2CRA" name="ResturauntHobby">
+      <modelElement href="ResturauntHobby.uml#_oXKksLT-EeuhEpRjlh2CRA"/>
+      <keywords xmi:id="_oap90bT-EeuhEpRjlh2CRA" keyword="create"/>
+      <stereotypes xmi:id="_oap90rT-EeuhEpRjlh2CRA" name="StyledElement">
+        <modelElement href="ResturauntHobby.uml#_oXLLyLT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_oap907T-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_oap91LT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oap91bT-EeuhEpRjlh2CRA">
+        <modelElement href="ResturauntHobby.uml#_oXLLx7T-EeuhEpRjlh2CRA"/>
+        <type xmi:id="_oap91rT-EeuhEpRjlh2CRA" name="ResturauntHobby">
+          <modelElement href="ResturauntHobby.uml#_oSbOoLT-EeuhEpRjlh2CRA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oap917T-EeuhEpRjlh2CRA" name="id">
+        <modelElement href="ResturauntHobby.uml#_oXLLwLT-EeuhEpRjlh2CRA"/>
+        <cardinality xmi:id="_oap92LT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+        <type xmi:id="_oap92bT-EeuhEpRjlh2CRA" name="Long">
+          <modelElement href="ResturauntHobby.uml#_oW9wYrT-EeuhEpRjlh2CRA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oap92rT-EeuhEpRjlh2CRA" name="restaurantName">
+        <modelElement href="ResturauntHobby.uml#_oXLLwbT-EeuhEpRjlh2CRA"/>
+        <cardinality xmi:id="_oap927T-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+        <type xmi:id="_oap93LT-EeuhEpRjlh2CRA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oap93bT-EeuhEpRjlh2CRA" name="location">
+        <modelElement href="ResturauntHobby.uml#_oXLLwrT-EeuhEpRjlh2CRA"/>
+        <cardinality xmi:id="_oap93rT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+        <type xmi:id="_oap937T-EeuhEpRjlh2CRA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oap94LT-EeuhEpRjlh2CRA" name="dish">
+        <modelElement href="ResturauntHobby.uml#_oXLLw7T-EeuhEpRjlh2CRA"/>
+        <cardinality xmi:id="_oap94bT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+        <type xmi:id="_oap94rT-EeuhEpRjlh2CRA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oap947T-EeuhEpRjlh2CRA" name="rating">
+        <modelElement href="ResturauntHobby.uml#_oXLLxLT-EeuhEpRjlh2CRA"/>
+        <cardinality xmi:id="_oap95LT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+        <type xmi:id="_oap95bT-EeuhEpRjlh2CRA" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oap95rT-EeuhEpRjlh2CRA" name="equals">
+      <modelElement href="ResturauntHobby.uml#_oXOPEbT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_oap957T-EeuhEpRjlh2CRA" name="LegacyStyledElement">
+        <modelElement href="ResturauntHobby.uml#_oXO2ILT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_oap96LT-EeuhEpRjlh2CRA" name="Annotations">
+        <modelElement href="ResturauntHobby.uml#_oXO2IbT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_oap96bT-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_oap96rT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oap967T-EeuhEpRjlh2CRA">
+        <modelElement href="ResturauntHobby.uml#_oXOPE7T-EeuhEpRjlh2CRA"/>
+        <type xmi:id="_oap97LT-EeuhEpRjlh2CRA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oap97bT-EeuhEpRjlh2CRA" name="obj">
+        <modelElement href="ResturauntHobby.uml#_oXOPErT-EeuhEpRjlh2CRA"/>
+        <cardinality xmi:id="_oap97rT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+        <type xmi:id="_oap977T-EeuhEpRjlh2CRA" name="Object">
+          <modelElement href="ResturauntHobby.uml#_oXLy0LT-EeuhEpRjlh2CRA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_oavdJrT-EeuhEpRjlh2CRA" name="ResturauntHobbyRepo" associationsIn="_oau2ELT-EeuhEpRjlh2CRA _obJs0LT-EeuhEpRjlh2CRA">
+    <modelElement href="ResturauntHobby.uml#_oSmNwLT-EeuhEpRjlh2CRA"/>
+    <visualProperties xmi:id="_oavdJ7T-EeuhEpRjlh2CRA" position="-932.0,-73.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_oavdKLT-EeuhEpRjlh2CRA" name="LegacyStyledElement">
+      <modelElement href="ResturauntHobby.uml#_oSm00LT-EeuhEpRjlh2CRA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_oavdKbT-EeuhEpRjlh2CRA" name="Annotations">
+      <modelElement href="ResturauntHobby.uml#_oSnb4LT-EeuhEpRjlh2CRA"/>
+    </stereotypes>
+    <visibility xmi:id="_oavdKrT-EeuhEpRjlh2CRA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_oax5YLT-EeuhEpRjlh2CRA" name="ResturauntHobbyService" associationsIn="_oaj28LT-EeuhEpRjlh2CRA _oa4nELT-EeuhEpRjlh2CRA _obJFwLT-EeuhEpRjlh2CRA" associationsOut="_oau2ELT-EeuhEpRjlh2CRA">
+    <modelElement href="ResturauntHobby.uml#_oSoC8LT-EeuhEpRjlh2CRA"/>
+    <visualProperties xmi:id="_oax5YbT-EeuhEpRjlh2CRA" position="-1538.0,43.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_oax5YrT-EeuhEpRjlh2CRA" name="LegacyStyledElement">
+      <modelElement href="ResturauntHobby.uml#_oSoC8bT-EeuhEpRjlh2CRA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_oax5Y7T-EeuhEpRjlh2CRA" name="Annotations">
+      <modelElement href="ResturauntHobby.uml#_oSp4ILT-EeuhEpRjlh2CRA"/>
+    </stereotypes>
+    <visibility xmi:id="_oax5ZLT-EeuhEpRjlh2CRA" label="+"/>
+    <attributes xmi:id="_oax5ZbT-EeuhEpRjlh2CRA" name="repo">
+      <modelElement href="ResturauntHobby.uml#_oXbDYbT-EeuhEpRjlh2CRA"/>
+      <visibility xmi:id="_oax5ZrT-EeuhEpRjlh2CRA" label="-"/>
+      <cardinality xmi:id="_oax5Z7T-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <type xmi:id="_oax5aLT-EeuhEpRjlh2CRA" name="ResturauntHobbyRepo">
+        <modelElement href="ResturauntHobby.uml#_oSmNwLT-EeuhEpRjlh2CRA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_oax5abT-EeuhEpRjlh2CRA" name="getAll">
+      <modelElement href="ResturauntHobby.uml#_oSoqALT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_oax5arT-EeuhEpRjlh2CRA" name="StyledElement">
+        <modelElement href="ResturauntHobby.uml#_oSpRErT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_oax5a7T-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_oax5bLT-EeuhEpRjlh2CRA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_oax5bbT-EeuhEpRjlh2CRA">
+        <modelElement href="ResturauntHobby.uml#_oSpRELT-EeuhEpRjlh2CRA"/>
+        <type xmi:id="_oax5brT-EeuhEpRjlh2CRA" name="ResturauntHobby">
+          <modelElement href="ResturauntHobby.uml#_oSbOoLT-EeuhEpRjlh2CRA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oax5b7T-EeuhEpRjlh2CRA" name="ResturauntHobbyService">
+      <modelElement href="ResturauntHobby.uml#_oVhl8LT-EeuhEpRjlh2CRA"/>
+      <keywords xmi:id="_oax5cLT-EeuhEpRjlh2CRA" keyword="create"/>
+      <stereotypes xmi:id="_oax5cbT-EeuhEpRjlh2CRA" name="StyledElement">
+        <modelElement href="ResturauntHobby.uml#_oVhl9bT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_oax5crT-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_oax5c7T-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oax5dLT-EeuhEpRjlh2CRA">
+        <modelElement href="ResturauntHobby.uml#_oVhl9LT-EeuhEpRjlh2CRA"/>
+        <type xmi:id="_oax5dbT-EeuhEpRjlh2CRA" name="ResturauntHobbyService">
+          <modelElement href="ResturauntHobby.uml#_oSoC8LT-EeuhEpRjlh2CRA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oax5drT-EeuhEpRjlh2CRA" name="repo">
+        <modelElement href="ResturauntHobby.uml#_oVhl8bT-EeuhEpRjlh2CRA"/>
+        <cardinality xmi:id="_oax5d7T-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+        <type xmi:id="_oax5eLT-EeuhEpRjlh2CRA" name="ResturauntHobbyRepo">
+          <modelElement href="ResturauntHobby.uml#_oSmNwLT-EeuhEpRjlh2CRA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oax5ebT-EeuhEpRjlh2CRA" name="create">
+      <modelElement href="ResturauntHobby.uml#_oViNALT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_oax5erT-EeuhEpRjlh2CRA" name="StyledElement">
+        <modelElement href="ResturauntHobby.uml#_oViNA7T-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_oax5e7T-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_oax5fLT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oax5fbT-EeuhEpRjlh2CRA">
+        <modelElement href="ResturauntHobby.uml#_oViNArT-EeuhEpRjlh2CRA"/>
+        <type xmi:id="_oax5frT-EeuhEpRjlh2CRA" name="ResturauntHobby">
+          <modelElement href="ResturauntHobby.uml#_oSbOoLT-EeuhEpRjlh2CRA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oax5f7T-EeuhEpRjlh2CRA" name="r">
+        <modelElement href="ResturauntHobby.uml#_oViNAbT-EeuhEpRjlh2CRA"/>
+        <cardinality xmi:id="_oax5gLT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+        <type xmi:id="_oax5gbT-EeuhEpRjlh2CRA" name="ResturauntHobby">
+          <modelElement href="ResturauntHobby.uml#_oSbOoLT-EeuhEpRjlh2CRA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oax5grT-EeuhEpRjlh2CRA" name="getById">
+      <modelElement href="ResturauntHobby.uml#_oXSggLT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_oax5g7T-EeuhEpRjlh2CRA" name="StyledElement">
+        <modelElement href="ResturauntHobby.uml#_oXSgg7T-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_oax5hLT-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_oax5hbT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oax5hrT-EeuhEpRjlh2CRA">
+        <modelElement href="ResturauntHobby.uml#_oXSggrT-EeuhEpRjlh2CRA"/>
+        <type xmi:id="_oax5h7T-EeuhEpRjlh2CRA" name="ResturauntHobby">
+          <modelElement href="ResturauntHobby.uml#_oSbOoLT-EeuhEpRjlh2CRA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oax5iLT-EeuhEpRjlh2CRA" name="id">
+        <modelElement href="ResturauntHobby.uml#_oXSggbT-EeuhEpRjlh2CRA"/>
+        <cardinality xmi:id="_oax5ibT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+        <type xmi:id="_oax5irT-EeuhEpRjlh2CRA" name="Long">
+          <modelElement href="ResturauntHobby.uml#_oW9wYrT-EeuhEpRjlh2CRA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oax5i7T-EeuhEpRjlh2CRA" name="remove">
+      <modelElement href="ResturauntHobby.uml#_oXTHkLT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_oax5jLT-EeuhEpRjlh2CRA" name="StyledElement">
+        <modelElement href="ResturauntHobby.uml#_oXTHk7T-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_oax5jbT-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_oax5jrT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oax5j7T-EeuhEpRjlh2CRA">
+        <modelElement href="ResturauntHobby.uml#_oXTHkrT-EeuhEpRjlh2CRA"/>
+        <type xmi:id="_oax5kLT-EeuhEpRjlh2CRA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oax5kbT-EeuhEpRjlh2CRA" name="id">
+        <modelElement href="ResturauntHobby.uml#_oXTHkbT-EeuhEpRjlh2CRA"/>
+        <cardinality xmi:id="_oax5krT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+        <type xmi:id="_oax5k7T-EeuhEpRjlh2CRA" name="Long">
+          <modelElement href="ResturauntHobby.uml#_oW9wYrT-EeuhEpRjlh2CRA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oax5lLT-EeuhEpRjlh2CRA" name="update">
+      <modelElement href="ResturauntHobby.uml#_oXTHlLT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_oax5lbT-EeuhEpRjlh2CRA" name="StyledElement">
+        <modelElement href="ResturauntHobby.uml#_oXTHmLT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_oax5lrT-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_oax5l7T-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oax5mLT-EeuhEpRjlh2CRA">
+        <modelElement href="ResturauntHobby.uml#_oXTHl7T-EeuhEpRjlh2CRA"/>
+        <type xmi:id="_oax5mbT-EeuhEpRjlh2CRA" name="ResturauntHobby">
+          <modelElement href="ResturauntHobby.uml#_oSbOoLT-EeuhEpRjlh2CRA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oax5mrT-EeuhEpRjlh2CRA" name="id">
+        <modelElement href="ResturauntHobby.uml#_oXTHlbT-EeuhEpRjlh2CRA"/>
+        <cardinality xmi:id="_oax5m7T-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+        <type xmi:id="_oax5nLT-EeuhEpRjlh2CRA" name="Long">
+          <modelElement href="ResturauntHobby.uml#_oW9wYrT-EeuhEpRjlh2CRA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oax5nbT-EeuhEpRjlh2CRA" name="rest">
+        <modelElement href="ResturauntHobby.uml#_oXTHlrT-EeuhEpRjlh2CRA"/>
+        <cardinality xmi:id="_oax5nrT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+        <type xmi:id="_oax5n7T-EeuhEpRjlh2CRA" name="ResturauntHobby">
+          <modelElement href="ResturauntHobby.uml#_oSbOoLT-EeuhEpRjlh2CRA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_oa7DULT-EeuhEpRjlh2CRA" name="ResturauntHobbyApplicationTests" associationsOut="_oa2K0LT-EeuhEpRjlh2CRA _oa4nELT-EeuhEpRjlh2CRA">
+    <modelElement href="ResturauntHobby.uml#_oSrtULT-EeuhEpRjlh2CRA"/>
+    <visualProperties xmi:id="_oa7DUbT-EeuhEpRjlh2CRA" position="7.0,485.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_oa7DUrT-EeuhEpRjlh2CRA" name="LegacyStyledElement">
+      <modelElement href="ResturauntHobby.uml#_oSs7cLT-EeuhEpRjlh2CRA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_oa7DU7T-EeuhEpRjlh2CRA" name="Annotations">
+      <modelElement href="ResturauntHobby.uml#_oStigrT-EeuhEpRjlh2CRA"/>
+    </stereotypes>
+    <visibility xmi:id="_oa7DVLT-EeuhEpRjlh2CRA" label="~"/>
+    <attributes xmi:id="_oa7DVbT-EeuhEpRjlh2CRA" name="hobbyController">
+      <modelElement href="ResturauntHobby.uml#_oXbqcLT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_oa7DVrT-EeuhEpRjlh2CRA" name="Annotations">
+        <modelElement href="ResturauntHobby.uml#_oXbqcbT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_oa7DV7T-EeuhEpRjlh2CRA" label="-"/>
+      <cardinality xmi:id="_oa7DWLT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <type xmi:id="_oa7DWbT-EeuhEpRjlh2CRA" name="ResturauntHobbyController">
+        <modelElement href="ResturauntHobby.uml#_oSUg8rT-EeuhEpRjlh2CRA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oa7DWrT-EeuhEpRjlh2CRA" name="hobbyService">
+      <modelElement href="ResturauntHobby.uml#_oXbqc7T-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_oa7DW7T-EeuhEpRjlh2CRA" name="Annotations">
+        <modelElement href="ResturauntHobby.uml#_oXcRgLT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_oa7DXLT-EeuhEpRjlh2CRA" label="-"/>
+      <cardinality xmi:id="_oa7DXbT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <type xmi:id="_oa7DXrT-EeuhEpRjlh2CRA" name="ResturauntHobbyService">
+        <modelElement href="ResturauntHobby.uml#_oSoC8LT-EeuhEpRjlh2CRA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_oa7DX7T-EeuhEpRjlh2CRA" name="contextLoads">
+      <modelElement href="ResturauntHobby.uml#_oSs7cbT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_oa7DYLT-EeuhEpRjlh2CRA" name="Annotations">
+        <modelElement href="ResturauntHobby.uml#_oStigLT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_oa7DYbT-EeuhEpRjlh2CRA" label="~"/>
+      <cardinality xmi:id="_oa7DYrT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_oa-tuLT-EeuhEpRjlh2CRA" name="ResturauntHobbyControllerIntegrationTest" associationsOut="_oa-GoLT-EeuhEpRjlh2CRA _oa-GqbT-EeuhEpRjlh2CRA">
+    <modelElement href="ResturauntHobby.uml#_oSuwoLT-EeuhEpRjlh2CRA"/>
+    <visualProperties xmi:id="_oa-tubT-EeuhEpRjlh2CRA" position="0.0,609.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_oa-turT-EeuhEpRjlh2CRA" name="LegacyStyledElement">
+      <modelElement href="ResturauntHobby.uml#_oSvXsLT-EeuhEpRjlh2CRA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_oa-tu7T-EeuhEpRjlh2CRA" name="Annotations">
+      <modelElement href="ResturauntHobby.uml#_oSybBbT-EeuhEpRjlh2CRA"/>
+    </stereotypes>
+    <visibility xmi:id="_oa-tvLT-EeuhEpRjlh2CRA" label="~"/>
+    <attributes xmi:id="_oa-tvbT-EeuhEpRjlh2CRA" name="mockMVC">
+      <modelElement href="ResturauntHobby.uml#_oXcRgrT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_oa-tvrT-EeuhEpRjlh2CRA" name="Annotations">
+        <modelElement href="ResturauntHobby.uml#_oXcRg7T-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_oa-tv7T-EeuhEpRjlh2CRA" label="-"/>
+      <cardinality xmi:id="_oa-twLT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <type xmi:id="_oa-twbT-EeuhEpRjlh2CRA" name="MockMvc">
+        <modelElement href="ResturauntHobby.uml#_oWBVMbT-EeuhEpRjlh2CRA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oa-twrT-EeuhEpRjlh2CRA" name="mapper">
+      <modelElement href="ResturauntHobby.uml#_oXcRhbT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_oa-tw7T-EeuhEpRjlh2CRA" name="Annotations">
+        <modelElement href="ResturauntHobby.uml#_oXc4kLT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_oa-txLT-EeuhEpRjlh2CRA" label="-"/>
+      <cardinality xmi:id="_oa-txbT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <type xmi:id="_oa-txrT-EeuhEpRjlh2CRA" name="ObjectMapper">
+        <modelElement href="ResturauntHobby.uml#_oWJRAbT-EeuhEpRjlh2CRA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_oa-tx7T-EeuhEpRjlh2CRA" name="testCreate">
+      <modelElement href="ResturauntHobby.uml#_oSvXsbT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_oa-tyLT-EeuhEpRjlh2CRA" name="Annotations">
+        <modelElement href="ResturauntHobby.uml#_oSv-wLT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_oa-tybT-EeuhEpRjlh2CRA" label="~"/>
+      <cardinality xmi:id="_oa-tyrT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_oa-ty7T-EeuhEpRjlh2CRA" name="testUpdate">
+      <modelElement href="ResturauntHobby.uml#_oSv-wrT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_oa-tzLT-EeuhEpRjlh2CRA" name="Annotations">
+        <modelElement href="ResturauntHobby.uml#_oSwl0LT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_oa-tzbT-EeuhEpRjlh2CRA" label="~"/>
+      <cardinality xmi:id="_oa-tzrT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_oa-tz7T-EeuhEpRjlh2CRA" name="testRemove">
+      <modelElement href="ResturauntHobby.uml#_oSwl0rT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_oa-t0LT-EeuhEpRjlh2CRA" name="Annotations">
+        <modelElement href="ResturauntHobby.uml#_oSxz8LT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_oa-t0bT-EeuhEpRjlh2CRA" label="~"/>
+      <cardinality xmi:id="_oa-t0rT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_oa-t07T-EeuhEpRjlh2CRA" name="testReadAll">
+      <modelElement href="ResturauntHobby.uml#_oSxz8rT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_oa-t1LT-EeuhEpRjlh2CRA" name="Annotations">
+        <modelElement href="ResturauntHobby.uml#_oSybALT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_oa-t1bT-EeuhEpRjlh2CRA" label="~"/>
+      <cardinality xmi:id="_oa-t1rT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_oa-t17T-EeuhEpRjlh2CRA" name="testReadOne">
+      <modelElement href="ResturauntHobby.uml#_oSybArT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_oa-t2LT-EeuhEpRjlh2CRA" name="Annotations">
+        <modelElement href="ResturauntHobby.uml#_oSybA7T-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_oa-t2bT-EeuhEpRjlh2CRA" label="~"/>
+      <cardinality xmi:id="_oa-t2rT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_obBxALT-EeuhEpRjlh2CRA" name="Exception">
+    <modelElement href="ResturauntHobby.uml#_oXTuoLT-EeuhEpRjlh2CRA"/>
+    <visualProperties xmi:id="_obBxAbT-EeuhEpRjlh2CRA" position="261.0,483.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_obBxArT-EeuhEpRjlh2CRA" name="Reference">
+      <modelElement href="ResturauntHobby.uml#_oXWK4LT-EeuhEpRjlh2CRA"/>
+    </stereotypes>
+    <visibility xmi:id="_obBxA7T-EeuhEpRjlh2CRA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_obENQLT-EeuhEpRjlh2CRA" name="page" associationsOut="_obDmMLT-EeuhEpRjlh2CRA">
+    <modelElement href="ResturauntHobby.uml#_oS0QMLT-EeuhEpRjlh2CRA"/>
+    <visualProperties xmi:id="_obENQbT-EeuhEpRjlh2CRA" position="-279.0,503.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_obENQrT-EeuhEpRjlh2CRA" label="+"/>
+    <attributes xmi:id="_obENQ7T-EeuhEpRjlh2CRA" name="heading">
+      <modelElement href="ResturauntHobby.uml#_oXc4krT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_obENRLT-EeuhEpRjlh2CRA" name="LegacyStyledElement">
+        <modelElement href="ResturauntHobby.uml#_oXc4k7T-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_obENRbT-EeuhEpRjlh2CRA" name="Annotations">
+        <modelElement href="ResturauntHobby.uml#_oXc4lLT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_obENRrT-EeuhEpRjlh2CRA" label="-"/>
+      <cardinality xmi:id="_obENR7T-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <type xmi:id="_obENSLT-EeuhEpRjlh2CRA" name="WebElement">
+        <modelElement href="ResturauntHobby.uml#_oWM7YLT-EeuhEpRjlh2CRA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_obENSbT-EeuhEpRjlh2CRA" name="getHeading">
+      <modelElement href="ResturauntHobby.uml#_oS03QLT-EeuhEpRjlh2CRA"/>
+      <visibility xmi:id="_obENSrT-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_obENS7T-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_obENTLT-EeuhEpRjlh2CRA">
+        <modelElement href="ResturauntHobby.uml#_oXWx8LT-EeuhEpRjlh2CRA"/>
+        <type xmi:id="_obENTbT-EeuhEpRjlh2CRA" name="WebElement">
+          <modelElement href="ResturauntHobby.uml#_oWM7YLT-EeuhEpRjlh2CRA"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_obGpgLT-EeuhEpRjlh2CRA" name="test" associationsOut="_obGCcLT-EeuhEpRjlh2CRA">
+    <modelElement href="ResturauntHobby.uml#_oS03QbT-EeuhEpRjlh2CRA"/>
+    <visualProperties xmi:id="_obGpgbT-EeuhEpRjlh2CRA" position="394.0,520.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_obGpgrT-EeuhEpRjlh2CRA" name="LegacyStyledElement">
+      <modelElement href="ResturauntHobby.uml#_oS1eU7T-EeuhEpRjlh2CRA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_obGpg7T-EeuhEpRjlh2CRA" name="Annotations">
+      <modelElement href="ResturauntHobby.uml#_oS2sdbT-EeuhEpRjlh2CRA"/>
+    </stereotypes>
+    <visibility xmi:id="_obGphLT-EeuhEpRjlh2CRA" label="+"/>
+    <attributes xmi:id="_obGphbT-EeuhEpRjlh2CRA" name="randomPort" staticAttribute="true">
+      <modelElement href="ResturauntHobby.uml#_oXdfobT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_obGphrT-EeuhEpRjlh2CRA" name="Annotations">
+        <modelElement href="ResturauntHobby.uml#_oXdforT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_obGph7T-EeuhEpRjlh2CRA" label="~"/>
+      <cardinality xmi:id="_obGpiLT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <type xmi:id="_obGpibT-EeuhEpRjlh2CRA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_obGpirT-EeuhEpRjlh2CRA" defaultValue="&quot;http://localhost:&quot;+randomPort" name="URL" staticAttribute="true">
+      <modelElement href="ResturauntHobby.uml#_oXdfpLT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_obGpi7T-EeuhEpRjlh2CRA" name="StyledElement">
+        <modelElement href="ResturauntHobby.uml#_oXdfprT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_obGpjLT-EeuhEpRjlh2CRA" label="-"/>
+      <cardinality xmi:id="_obGpjbT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <type xmi:id="_obGpjrT-EeuhEpRjlh2CRA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_obGpj7T-EeuhEpRjlh2CRA" name="driver">
+      <modelElement href="ResturauntHobby.uml#_oXdfp7T-EeuhEpRjlh2CRA"/>
+      <visibility xmi:id="_obGpkLT-EeuhEpRjlh2CRA" label="-"/>
+      <cardinality xmi:id="_obGpkbT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <type xmi:id="_obGpkrT-EeuhEpRjlh2CRA" name="WebDriver">
+        <modelElement href="ResturauntHobby.uml#_oWi5obT-EeuhEpRjlh2CRA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_obGpk7T-EeuhEpRjlh2CRA" name="setUp">
+      <modelElement href="ResturauntHobby.uml#_oS2FYLT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_obGplLT-EeuhEpRjlh2CRA" name="Annotations">
+        <modelElement href="ResturauntHobby.uml#_oS2FYbT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_obGplbT-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_obGplrT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_obGpl7T-EeuhEpRjlh2CRA" name="enterSite">
+      <modelElement href="ResturauntHobby.uml#_oS2FY7T-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_obGpmLT-EeuhEpRjlh2CRA" name="Annotations">
+        <modelElement href="ResturauntHobby.uml#_oS2scLT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_obGpmbT-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_obGpmrT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_obGpm7T-EeuhEpRjlh2CRA" name="shutDown">
+      <modelElement href="ResturauntHobby.uml#_oS2scrT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_obGpnLT-EeuhEpRjlh2CRA" name="Annotations">
+        <modelElement href="ResturauntHobby.uml#_oS2sc7T-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_obGpnbT-EeuhEpRjlh2CRA" label="+"/>
+      <cardinality xmi:id="_obGpnrT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_obMJELT-EeuhEpRjlh2CRA" name="ResturauntHobbyServiceUnitTest" associationsOut="_obJFwLT-EeuhEpRjlh2CRA _obJs0LT-EeuhEpRjlh2CRA">
+    <modelElement href="ResturauntHobby.uml#_oS36kLT-EeuhEpRjlh2CRA"/>
+    <visualProperties xmi:id="_obMJEbT-EeuhEpRjlh2CRA" position="-538.0,543.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_obMJErT-EeuhEpRjlh2CRA" name="LegacyStyledElement">
+      <modelElement href="ResturauntHobby.uml#_oS4hoLT-EeuhEpRjlh2CRA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_obMJE7T-EeuhEpRjlh2CRA" name="Annotations">
+      <modelElement href="ResturauntHobby.uml#_oS5vxbT-EeuhEpRjlh2CRA"/>
+    </stereotypes>
+    <visibility xmi:id="_obMJFLT-EeuhEpRjlh2CRA" label="~"/>
+    <attributes xmi:id="_obMJFbT-EeuhEpRjlh2CRA" name="service">
+      <modelElement href="ResturauntHobby.uml#_oXeGsLT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_obMJFrT-EeuhEpRjlh2CRA" name="Annotations">
+        <modelElement href="ResturauntHobby.uml#_oXeGsbT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_obMJF7T-EeuhEpRjlh2CRA" label="-"/>
+      <cardinality xmi:id="_obMJGLT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <type xmi:id="_obMJGbT-EeuhEpRjlh2CRA" name="ResturauntHobbyService">
+        <modelElement href="ResturauntHobby.uml#_oSoC8LT-EeuhEpRjlh2CRA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_obMJGrT-EeuhEpRjlh2CRA" name="repo">
+      <modelElement href="ResturauntHobby.uml#_oXeGs7T-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_obMJG7T-EeuhEpRjlh2CRA" name="Annotations">
+        <modelElement href="ResturauntHobby.uml#_oXetwLT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_obMJHLT-EeuhEpRjlh2CRA" label="-"/>
+      <cardinality xmi:id="_obMJHbT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+      <type xmi:id="_obMJHrT-EeuhEpRjlh2CRA" name="ResturauntHobbyRepo">
+        <modelElement href="ResturauntHobby.uml#_oSmNwLT-EeuhEpRjlh2CRA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_obMJH7T-EeuhEpRjlh2CRA" name="testCreate">
+      <modelElement href="ResturauntHobby.uml#_oS4hobT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_obMJILT-EeuhEpRjlh2CRA" name="Annotations">
+        <modelElement href="ResturauntHobby.uml#_oS4horT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_obMJIbT-EeuhEpRjlh2CRA" label="~"/>
+      <cardinality xmi:id="_obMJIrT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_obMJI7T-EeuhEpRjlh2CRA" name="testReadAll">
+      <modelElement href="ResturauntHobby.uml#_oS4hpLT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_obMJJLT-EeuhEpRjlh2CRA" name="Annotations">
+        <modelElement href="ResturauntHobby.uml#_oS5IsLT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_obMJJbT-EeuhEpRjlh2CRA" label="~"/>
+      <cardinality xmi:id="_obMJJrT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_obMJJ7T-EeuhEpRjlh2CRA" name="testDelete">
+      <modelElement href="ResturauntHobby.uml#_oS5IsrT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_obMJKLT-EeuhEpRjlh2CRA" name="Annotations">
+        <modelElement href="ResturauntHobby.uml#_oS5Is7T-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_obMJKbT-EeuhEpRjlh2CRA" label="~"/>
+      <cardinality xmi:id="_obMJKrT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_obMJK7T-EeuhEpRjlh2CRA" name="testReadById">
+      <modelElement href="ResturauntHobby.uml#_oS5ItbT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_obMJLLT-EeuhEpRjlh2CRA" name="Annotations">
+        <modelElement href="ResturauntHobby.uml#_oS5vwLT-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_obMJLbT-EeuhEpRjlh2CRA" label="~"/>
+      <cardinality xmi:id="_obMJLrT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_obMJL7T-EeuhEpRjlh2CRA" name="testUpdate">
+      <modelElement href="ResturauntHobby.uml#_oS5vwrT-EeuhEpRjlh2CRA"/>
+      <stereotypes xmi:id="_obMJMLT-EeuhEpRjlh2CRA" name="Annotations">
+        <modelElement href="ResturauntHobby.uml#_oS5vw7T-EeuhEpRjlh2CRA"/>
+      </stereotypes>
+      <visibility xmi:id="_obMJMbT-EeuhEpRjlh2CRA" label="~"/>
+      <cardinality xmi:id="_obMJMrT-EeuhEpRjlh2CRA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_p0-mgLT-EeuhEpRjlh2CRA" name="NewClass1">
+    <modelElement href="ResturauntHobby.uml#_p09_cLT-EeuhEpRjlh2CRA"/>
+    <visualProperties xmi:id="_p0-mgbT-EeuhEpRjlh2CRA" position="715.0,369.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_p0-mgrT-EeuhEpRjlh2CRA" label="+"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

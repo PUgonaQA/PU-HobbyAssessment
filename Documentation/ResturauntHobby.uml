@@ -1,0 +1,1163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Persistency="http:///schemas/Persistency/NS/0" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/Persistency/NS/0 pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2-Annotation-Persistency http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_oINisLT-EeuhEpRjlh2CRA" name="ResturauntHobby">
+    <eAnnotations xmi:id="_oMb7YLT-EeuhEpRjlh2CRA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_oMiCALT-EeuhEpRjlh2CRA" source="codegen">
+        <details xmi:id="_oMiCAbT-EeuhEpRjlh2CRA" key="codegenDirectory" value="/ResturauntHobby/src/main/java"/>
+        <details xmi:id="_oaeXYLT-EeuhEpRjlh2CRA" key="AssociatedSourceCode" value="/ResturauntHobby/src/main/java/com/qa/ResturauntHobby/ResturauntHobbyApplication.java;2050628822/1;/ResturauntHobby/src/main/java/com/qa/ResturauntHobby/controller/ResturauntHobbyController.java;121643878/1;/ResturauntHobby/src/main/java/com/qa/ResturauntHobby/domain/ResturauntHobby.java;2799522290/1;/ResturauntHobby/src/main/java/com/qa/ResturauntHobby/repo/ResturauntHobbyRepo.java;210736071/1;/ResturauntHobby/src/main/java/com/qa/ResturauntHobby/service/ResturauntHobbyService.java;698641124/1;/ResturauntHobby/src/test/java/com/qa/ResturauntHobby/ResturauntHobbyApplicationTests.java;913939598/1;/ResturauntHobby/src/test/java/com/qa/ResturauntHobby/controller/ResturauntHobbyControllerIntegrationTest.java;1875260994/1;/ResturauntHobby/src/test/java/com/qa/ResturauntHobby/selenium/page/page.java;885189511/1;/ResturauntHobby/src/test/java/com/qa/ResturauntHobby/selenium/test/test.java;2867285470/1;/ResturauntHobby/src/test/java/com/qa/ResturauntHobby/service/ResturauntHobbyServiceUnitTest.java;3491821979/1;/ResturauntHobby/src/main/java/com/qa/ResturauntHobby/NewClass1.java;2232599273/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_oSTS0LT-EeuhEpRjlh2CRA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_oSTS0bT-EeuhEpRjlh2CRA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_oSTS0rT-EeuhEpRjlh2CRA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_oSTS07T-EeuhEpRjlh2CRA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_oSTS1LT-EeuhEpRjlh2CRA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_oSTS1bT-EeuhEpRjlh2CRA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_oSTS1rT-EeuhEpRjlh2CRA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_oSTS17T-EeuhEpRjlh2CRA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_oST54LT-EeuhEpRjlh2CRA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_oRn9YLT-EeuhEpRjlh2CRA" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_oRn9YbT-EeuhEpRjlh2CRA" name="qa">
+        <packagedElement xmi:type="uml:Package" xmi:id="_oRpLgbT-EeuhEpRjlh2CRA" name="ResturauntHobby">
+          <packagedElement xmi:type="uml:Package" xmi:id="_oRrAsLT-EeuhEpRjlh2CRA" name="domain">
+            <packagedElement xmi:type="uml:Class" xmi:id="_oSbOoLT-EeuhEpRjlh2CRA" name="ResturauntHobby">
+              <ownedAttribute xmi:id="_oXYnILT-EeuhEpRjlh2CRA" name="id" type="_oW9wYrT-EeuhEpRjlh2CRA"/>
+              <ownedAttribute xmi:id="_oXZOMrT-EeuhEpRjlh2CRA" name="restaurantName">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_oXZ1QbT-EeuhEpRjlh2CRA" name="location">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_oXacULT-EeuhEpRjlh2CRA" name="dish">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_oXacUrT-EeuhEpRjlh2CRA" name="rating">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oXgi8LT-EeuhEpRjlh2CRA" name="ResturauntHobby" specification="_oSfgELT-EeuhEpRjlh2CRA">
+                <ownedParameter xmi:id="_oXgi8bT-EeuhEpRjlh2CRA" name="restaurantName">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_oXgi8rT-EeuhEpRjlh2CRA" name="location">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_oXgi87T-EeuhEpRjlh2CRA" name="dish">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_oXgi9LT-EeuhEpRjlh2CRA" name="rating">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_oXgi9bT-EeuhEpRjlh2CRA" type="_oSbOoLT-EeuhEpRjlh2CRA" direction="return"/>
+                <language>java</language>
+                <body>super();&#xD;
+		this.restaurantName = restaurantName;&#xD;
+		this.location = location;&#xD;
+		this.dish = dish;&#xD;
+		this.rating = rating;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oXgi9rT-EeuhEpRjlh2CRA" name="ResturauntHobby" specification="_oXKksLT-EeuhEpRjlh2CRA">
+                <ownedParameter xmi:id="_oXgi97T-EeuhEpRjlh2CRA" name="id" type="_oW9wYrT-EeuhEpRjlh2CRA"/>
+                <ownedParameter xmi:id="_oXgi-LT-EeuhEpRjlh2CRA" name="restaurantName">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_oXgi-bT-EeuhEpRjlh2CRA" name="location">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_oXgi-rT-EeuhEpRjlh2CRA" name="dish">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_oXgi-7T-EeuhEpRjlh2CRA" name="rating">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_oXgi_LT-EeuhEpRjlh2CRA" type="_oSbOoLT-EeuhEpRjlh2CRA" direction="return"/>
+                <language>java</language>
+                <body>super();&#xD;
+		this.id = id;&#xD;
+		this.restaurantName = restaurantName;&#xD;
+		this.location = location;&#xD;
+		this.dish = dish;&#xD;
+		this.rating = rating;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oXgi_bT-EeuhEpRjlh2CRA" name="hashCode" specification="_oShVRLT-EeuhEpRjlh2CRA">
+                <ownedParameter xmi:id="_oXgi_rT-EeuhEpRjlh2CRA" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>final int prime = 31;&#xD;
+		int result = 1;&#xD;
+		result = prime * result + ((dish == null) ? 0 : dish.hashCode());&#xD;
+		result = prime * result + ((id == null) ? 0 : id.hashCode());&#xD;
+		result = prime * result + ((location == null) ? 0 : location.hashCode());&#xD;
+		result = prime * result + ((rating == null) ? 0 : rating.hashCode());&#xD;
+		result = prime * result + ((restaurantName == null) ? 0 : restaurantName.hashCode());&#xD;
+		return result;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oXgi_7T-EeuhEpRjlh2CRA" name="equals" specification="_oXOPEbT-EeuhEpRjlh2CRA">
+                <ownedParameter xmi:id="_oXgjALT-EeuhEpRjlh2CRA" name="obj" type="_oXLy0LT-EeuhEpRjlh2CRA"/>
+                <ownedParameter xmi:id="_oXgjAbT-EeuhEpRjlh2CRA" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>if (this == obj)&#xD;
+			return true;&#xD;
+		if (obj == null)&#xD;
+			return false;&#xD;
+		if (getClass() != obj.getClass())&#xD;
+			return false;&#xD;
+		ResturauntHobby other = (ResturauntHobby) obj;&#xD;
+		if (dish == null) {&#xD;
+			if (other.dish != null)&#xD;
+				return false;&#xD;
+		} else if (!dish.equals(other.dish))&#xD;
+			return false;&#xD;
+		if (id == null) {&#xD;
+			if (other.id != null)&#xD;
+				return false;&#xD;
+		} else if (!id.equals(other.id))&#xD;
+			return false;&#xD;
+		if (location == null) {&#xD;
+			if (other.location != null)&#xD;
+				return false;&#xD;
+		} else if (!location.equals(other.location))&#xD;
+			return false;&#xD;
+		if (rating == null) {&#xD;
+			if (other.rating != null)&#xD;
+				return false;&#xD;
+		} else if (!rating.equals(other.rating))&#xD;
+			return false;&#xD;
+		if (restaurantName == null) {&#xD;
+			if (other.restaurantName != null)&#xD;
+				return false;&#xD;
+		} else if (!restaurantName.equals(other.restaurantName))&#xD;
+			return false;&#xD;
+		return true;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_oSfgELT-EeuhEpRjlh2CRA" name="ResturauntHobby" method="_oXgi8LT-EeuhEpRjlh2CRA">
+                <eAnnotations xmi:id="_oSgHILT-EeuhEpRjlh2CRA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_oSgHIbT-EeuhEpRjlh2CRA" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_oSfgEbT-EeuhEpRjlh2CRA" name="restaurantName">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_oSfgErT-EeuhEpRjlh2CRA" name="location">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_oSfgE7T-EeuhEpRjlh2CRA" name="dish">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_oSfgFLT-EeuhEpRjlh2CRA" name="rating">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_oSgHIrT-EeuhEpRjlh2CRA" type="_oSbOoLT-EeuhEpRjlh2CRA" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_oSguMLT-EeuhEpRjlh2CRA" name="ResturauntHobby">
+                <eAnnotations xmi:id="_oShVQLT-EeuhEpRjlh2CRA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_oShVQbT-EeuhEpRjlh2CRA" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_oShVQ7T-EeuhEpRjlh2CRA" type="_oSbOoLT-EeuhEpRjlh2CRA" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_oShVRLT-EeuhEpRjlh2CRA" name="hashCode" method="_oXgi_bT-EeuhEpRjlh2CRA">
+                <ownedParameter xmi:id="_oSh8ULT-EeuhEpRjlh2CRA" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_oXKksLT-EeuhEpRjlh2CRA" name="ResturauntHobby" method="_oXgi9rT-EeuhEpRjlh2CRA">
+                <eAnnotations xmi:id="_oXLLxbT-EeuhEpRjlh2CRA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_oXLLxrT-EeuhEpRjlh2CRA" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_oXLLwLT-EeuhEpRjlh2CRA" name="id" type="_oW9wYrT-EeuhEpRjlh2CRA"/>
+                <ownedParameter xmi:id="_oXLLwbT-EeuhEpRjlh2CRA" name="restaurantName">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_oXLLwrT-EeuhEpRjlh2CRA" name="location">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_oXLLw7T-EeuhEpRjlh2CRA" name="dish">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_oXLLxLT-EeuhEpRjlh2CRA" name="rating">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_oXLLx7T-EeuhEpRjlh2CRA" type="_oSbOoLT-EeuhEpRjlh2CRA" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_oXOPEbT-EeuhEpRjlh2CRA" name="equals" method="_oXgi_7T-EeuhEpRjlh2CRA">
+                <ownedParameter xmi:id="_oXOPErT-EeuhEpRjlh2CRA" name="obj" type="_oXLy0LT-EeuhEpRjlh2CRA"/>
+                <ownedParameter xmi:id="_oXOPE7T-EeuhEpRjlh2CRA" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_oRrAsbT-EeuhEpRjlh2CRA" name="service">
+            <packagedElement xmi:type="uml:Class" xmi:id="_oSoC8LT-EeuhEpRjlh2CRA" name="ResturauntHobbyService">
+              <ownedAttribute xmi:id="_oXbDYbT-EeuhEpRjlh2CRA" name="repo" visibility="private" type="_oSmNwLT-EeuhEpRjlh2CRA" association="_oXps4bT-EeuhEpRjlh2CRA"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oXgjArT-EeuhEpRjlh2CRA" name="ResturauntHobbyService" specification="_oVhl8LT-EeuhEpRjlh2CRA">
+                <ownedParameter xmi:id="_oXgjA7T-EeuhEpRjlh2CRA" name="repo" type="_oSmNwLT-EeuhEpRjlh2CRA"/>
+                <ownedParameter xmi:id="_oXgjBLT-EeuhEpRjlh2CRA" type="_oSoC8LT-EeuhEpRjlh2CRA" direction="return"/>
+                <language>java</language>
+                <body>this.repo = repo;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oXhKALT-EeuhEpRjlh2CRA" name="create" specification="_oViNALT-EeuhEpRjlh2CRA">
+                <ownedParameter xmi:id="_oXhKAbT-EeuhEpRjlh2CRA" name="r" type="_oSbOoLT-EeuhEpRjlh2CRA"/>
+                <ownedParameter xmi:id="_oXhKArT-EeuhEpRjlh2CRA" type="_oSbOoLT-EeuhEpRjlh2CRA" direction="return"/>
+                <language>java</language>
+                <body>return this.repo.save(r);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oXhKA7T-EeuhEpRjlh2CRA" name="getAll" specification="_oSoqALT-EeuhEpRjlh2CRA">
+                <ownedParameter xmi:id="_oXhKBLT-EeuhEpRjlh2CRA" type="_oSbOoLT-EeuhEpRjlh2CRA" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oXhKBbT-EeuhEpRjlh2CRA" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return this.repo.findAll();		&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oXhKBrT-EeuhEpRjlh2CRA" name="getById" specification="_oXSggLT-EeuhEpRjlh2CRA">
+                <ownedParameter xmi:id="_oXhKB7T-EeuhEpRjlh2CRA" name="id" type="_oW9wYrT-EeuhEpRjlh2CRA"/>
+                <ownedParameter xmi:id="_oXhKCLT-EeuhEpRjlh2CRA" type="_oSbOoLT-EeuhEpRjlh2CRA" direction="return"/>
+                <language>java</language>
+                <body>Optional&lt;ResturauntHobby> optionalDish = this.repo.findById(id);&#xD;
+		if(optionalDish.isPresent()) {&#xD;
+			return optionalDish.get();&#xD;
+		}&#xD;
+		return null;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oXhKCbT-EeuhEpRjlh2CRA" name="remove" specification="_oXTHkLT-EeuhEpRjlh2CRA">
+                <ownedParameter xmi:id="_oXhKCrT-EeuhEpRjlh2CRA" name="id" type="_oW9wYrT-EeuhEpRjlh2CRA"/>
+                <ownedParameter xmi:id="_oXhKC7T-EeuhEpRjlh2CRA" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>this.repo.deleteById(id);&#xD;
+		boolean exists = this.repo.existsById(id);&#xD;
+		return !exists; &#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oXhKDLT-EeuhEpRjlh2CRA" name="update" specification="_oXTHlLT-EeuhEpRjlh2CRA">
+                <ownedParameter xmi:id="_oXhKDbT-EeuhEpRjlh2CRA" name="id" type="_oW9wYrT-EeuhEpRjlh2CRA"/>
+                <ownedParameter xmi:id="_oXhKDrT-EeuhEpRjlh2CRA" name="rest" type="_oSbOoLT-EeuhEpRjlh2CRA"/>
+                <ownedParameter xmi:id="_oXhKD7T-EeuhEpRjlh2CRA" type="_oSbOoLT-EeuhEpRjlh2CRA" direction="return"/>
+                <language>java</language>
+                <body>Optional&lt;ResturauntHobby> existingOptional = repo.findById(id);&#xD;
+		&#xD;
+		if(existingOptional.isPresent()) {&#xD;
+			ResturauntHobby existing = existingOptional.get();&#xD;
+			&#xD;
+			existing.setId(id);&#xD;
+			existing.setDish(rest.getDish());&#xD;
+			existing.setLocation(rest.getLocation());&#xD;
+			existing.setRating(rest.getRating());&#xD;
+			existing.setRestaurantName(rest.getRestaurantName());&#xD;
+					&#xD;
+			return this.repo.save(existing); &#xD;
+		}&#xD;
+		return null;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_oSoqALT-EeuhEpRjlh2CRA" name="getAll" method="_oXhKA7T-EeuhEpRjlh2CRA">
+                <ownedParameter xmi:id="_oSpRELT-EeuhEpRjlh2CRA" type="_oSbOoLT-EeuhEpRjlh2CRA" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oSpREbT-EeuhEpRjlh2CRA" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_oVhl8LT-EeuhEpRjlh2CRA" name="ResturauntHobbyService" method="_oXgjArT-EeuhEpRjlh2CRA">
+                <eAnnotations xmi:id="_oVhl8rT-EeuhEpRjlh2CRA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_oVhl87T-EeuhEpRjlh2CRA" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_oVhl8bT-EeuhEpRjlh2CRA" name="repo" type="_oSmNwLT-EeuhEpRjlh2CRA"/>
+                <ownedParameter xmi:id="_oVhl9LT-EeuhEpRjlh2CRA" type="_oSoC8LT-EeuhEpRjlh2CRA" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_oViNALT-EeuhEpRjlh2CRA" name="create" method="_oXhKALT-EeuhEpRjlh2CRA">
+                <ownedParameter xmi:id="_oViNAbT-EeuhEpRjlh2CRA" name="r" type="_oSbOoLT-EeuhEpRjlh2CRA"/>
+                <ownedParameter xmi:id="_oViNArT-EeuhEpRjlh2CRA" type="_oSbOoLT-EeuhEpRjlh2CRA" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_oXSggLT-EeuhEpRjlh2CRA" name="getById" method="_oXhKBrT-EeuhEpRjlh2CRA">
+                <ownedParameter xmi:id="_oXSggbT-EeuhEpRjlh2CRA" name="id" type="_oW9wYrT-EeuhEpRjlh2CRA"/>
+                <ownedParameter xmi:id="_oXSggrT-EeuhEpRjlh2CRA" type="_oSbOoLT-EeuhEpRjlh2CRA" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_oXTHkLT-EeuhEpRjlh2CRA" name="remove" method="_oXhKCbT-EeuhEpRjlh2CRA">
+                <ownedParameter xmi:id="_oXTHkbT-EeuhEpRjlh2CRA" name="id" type="_oW9wYrT-EeuhEpRjlh2CRA"/>
+                <ownedParameter xmi:id="_oXTHkrT-EeuhEpRjlh2CRA" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_oXTHlLT-EeuhEpRjlh2CRA" name="update" method="_oXhKDLT-EeuhEpRjlh2CRA">
+                <ownedParameter xmi:id="_oXTHlbT-EeuhEpRjlh2CRA" name="id" type="_oW9wYrT-EeuhEpRjlh2CRA"/>
+                <ownedParameter xmi:id="_oXTHlrT-EeuhEpRjlh2CRA" name="rest" type="_oSbOoLT-EeuhEpRjlh2CRA"/>
+                <ownedParameter xmi:id="_oXTHl7T-EeuhEpRjlh2CRA" type="_oSbOoLT-EeuhEpRjlh2CRA" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_oS36kLT-EeuhEpRjlh2CRA" name="ResturauntHobbyServiceUnitTest" visibility="package">
+              <eAnnotations xmi:id="_oS36kbT-EeuhEpRjlh2CRA" source="http://ns.yatta.de/umllab">
+                <contents xmi:type="ecore:EAnnotation" xmi:id="_oS36krT-EeuhEpRjlh2CRA" source="codegen">
+                  <details xmi:id="_oS36k7T-EeuhEpRjlh2CRA" key="codegenDirectory" value="/ResturauntHobby/src/test/java"/>
+                </contents>
+              </eAnnotations>
+              <ownedAttribute xmi:id="_oXeGsLT-EeuhEpRjlh2CRA" name="service" visibility="private" type="_oSoC8LT-EeuhEpRjlh2CRA" association="_oX8n0bT-EeuhEpRjlh2CRA"/>
+              <ownedAttribute xmi:id="_oXeGs7T-EeuhEpRjlh2CRA" name="repo" visibility="private" type="_oSmNwLT-EeuhEpRjlh2CRA" association="_oX_rIbT-EeuhEpRjlh2CRA"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oXiYJbT-EeuhEpRjlh2CRA" name="testCreate" specification="_oS4hobT-EeuhEpRjlh2CRA">
+                <language>java</language>
+                <body>ResturauntHobby nandos = new ResturauntHobby(&quot;Nandos&quot;, &quot;Brighton UK&quot;, &quot;Hot Half Chciken&quot;, 70);&#xD;
+		ResturauntHobby savedNandos = new ResturauntHobby(1L, &quot;Nandos&quot;, &quot;Brighton UK&quot;, &quot;Hot Half Chciken&quot;, 70);&#xD;
+		&#xD;
+		Mockito.when(this.repo.save(nandos)).thenReturn(savedNandos);&#xD;
+		&#xD;
+		assertThat(this.service.create(nandos)).isEqualTo(savedNandos);&#xD;
+		Mockito.verify(this.repo, Mockito.times(1)).save(nandos); &#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oXiYJrT-EeuhEpRjlh2CRA" name="testReadAll" specification="_oS4hpLT-EeuhEpRjlh2CRA">
+                <language>java</language>
+                <body>ResturauntHobby testNandos = new ResturauntHobby(1L, &quot;Nandos&quot;, &quot;Brighton UK&quot;, &quot;Hot Half Chciken&quot;, 70);&#xD;
+		ResturauntHobby testVapianos = new ResturauntHobby(2L, &quot;Vapianos&quot;, &quot;London UK&quot;, &quot;Carbonara&quot;, 65);&#xD;
+	&#xD;
+		List&lt;ResturauntHobby> restaurants = List.of(testNandos, testVapianos);&#xD;
+		&#xD;
+		Mockito.when(this.repo.findAll()).thenReturn(restaurants);&#xD;
+		assertThat(this.service.getAll()).isEqualTo(restaurants);&#xD;
+		Mockito.verify(this.repo, Mockito.times(1)).findAll();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oXiYJ7T-EeuhEpRjlh2CRA" name="testDelete" specification="_oS5IsrT-EeuhEpRjlh2CRA">
+                <language>java</language>
+                <body>Long id=1L;&#xD;
+		ResturauntHobby deleteNandos = new ResturauntHobby(id, &quot;Nandos&quot;, &quot;Brighton UK&quot;, &quot;Hot Half Chciken&quot;, 70);&#xD;
+		ResturauntHobby savedNandos = new ResturauntHobby(1L, &quot;Nandos&quot;, &quot;Brighton UK&quot;, &quot;Hot Half Chciken&quot;, 70);&#xD;
+		Mockito.when(this.repo.save(deleteNandos)).thenReturn(savedNandos);&#xD;
+		&#xD;
+		boolean exists = this.repo.existsById(id);&#xD;
+		&#xD;
+		Mockito.when(!exists).thenReturn(true);&#xD;
+		assertThat(this.service.remove(id)).isFalse();&#xD;
+		&#xD;
+		Mockito.verify(this.repo, Mockito.times(1)).existsById(id);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oXiYKLT-EeuhEpRjlh2CRA" name="testReadById" specification="_oS5ItbT-EeuhEpRjlh2CRA">
+                <language>java</language>
+                <body>Long id = 1L;&#xD;
+		ResturauntHobby dominos = new ResturauntHobby(id, &quot;Dominos&quot;, &quot;London UK&quot;, &quot;Veggie Pizza&quot;, 55);&#xD;
+		&#xD;
+		Optional&lt;ResturauntHobby> optDominos = Optional.of(dominos);&#xD;
+		assertThat(optDominos).isPresent(); &#xD;
+		&#xD;
+		Mockito.when(this.repo.findById(id)).thenReturn(optDominos);&#xD;
+		&#xD;
+		assertThat(this.service.getById(id)).isEqualTo(dominos);&#xD;
+		Mockito.verify(this.repo, Mockito.times(1)).findById(id);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oXi_MLT-EeuhEpRjlh2CRA" name="testUpdate" specification="_oS5vwrT-EeuhEpRjlh2CRA">
+                <language>java</language>
+                <body>Long id=1L;&#xD;
+		ResturauntHobby tgi = new ResturauntHobby(id, &quot;TGI Friday&quot;, &quot;Birmingham UK&quot;, &quot;JD Wings&quot;, 55);&#xD;
+		ResturauntHobby newValues = new ResturauntHobby(null, &quot;TGI Friday&quot;, &quot;Southampton UK&quot;, &quot;Veggie Pizza&quot;, 90);&#xD;
+		ResturauntHobby updatedTgi = new ResturauntHobby(id, newValues.getRestaurantName(), &#xD;
+				newValues.getLocation(), newValues.getDish(), newValues.getRating()); &#xD;
+		&#xD;
+		Optional&lt;ResturauntHobby> optTgi = Optional.of(tgi);&#xD;
+		assertThat(optTgi).isPresent(); &#xD;
+		&#xD;
+		Mockito.when(this.repo.findById(id)).thenReturn(optTgi);&#xD;
+     Mockito.when(this.repo.save(updatedTgi)).thenReturn(updatedTgi);&#xD;
+     &#xD;
+     assertThat(this.service.update(id, newValues)).isEqualTo(updatedTgi);&#xD;
+     &#xD;
+     Mockito.verify(this.repo, Mockito.times(1)).findById(id);&#xD;
+     Mockito.verify(this.repo, Mockito.times(1)).save(updatedTgi);&#xD;
+     &#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_oS4hobT-EeuhEpRjlh2CRA" name="testCreate" visibility="package" method="_oXiYJbT-EeuhEpRjlh2CRA"/>
+              <ownedOperation xmi:id="_oS4hpLT-EeuhEpRjlh2CRA" name="testReadAll" visibility="package" method="_oXiYJrT-EeuhEpRjlh2CRA"/>
+              <ownedOperation xmi:id="_oS5IsrT-EeuhEpRjlh2CRA" name="testDelete" visibility="package" method="_oXiYJ7T-EeuhEpRjlh2CRA"/>
+              <ownedOperation xmi:id="_oS5ItbT-EeuhEpRjlh2CRA" name="testReadById" visibility="package" method="_oXiYKLT-EeuhEpRjlh2CRA"/>
+              <ownedOperation xmi:id="_oS5vwrT-EeuhEpRjlh2CRA" name="testUpdate" visibility="package" method="_oXi_MLT-EeuhEpRjlh2CRA"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_oXps4bT-EeuhEpRjlh2CRA" name="" memberEnd="_oXps4rT-EeuhEpRjlh2CRA _oXbDYbT-EeuhEpRjlh2CRA">
+              <ownedEnd xmi:id="_oXps4rT-EeuhEpRjlh2CRA" name="" type="_oSoC8LT-EeuhEpRjlh2CRA" association="_oXps4bT-EeuhEpRjlh2CRA"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_oX8n0bT-EeuhEpRjlh2CRA" name="" memberEnd="_oX8n0rT-EeuhEpRjlh2CRA _oXeGsLT-EeuhEpRjlh2CRA">
+              <ownedEnd xmi:id="_oX8n0rT-EeuhEpRjlh2CRA" name="" type="_oS36kLT-EeuhEpRjlh2CRA" association="_oX8n0bT-EeuhEpRjlh2CRA"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_oX_rIbT-EeuhEpRjlh2CRA" name="" memberEnd="_oX_rIrT-EeuhEpRjlh2CRA _oXeGs7T-EeuhEpRjlh2CRA">
+              <ownedEnd xmi:id="_oX_rIrT-EeuhEpRjlh2CRA" name="" type="_oS36kLT-EeuhEpRjlh2CRA" association="_oX_rIbT-EeuhEpRjlh2CRA"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_oRtc8LT-EeuhEpRjlh2CRA" name="controller">
+            <packagedElement xmi:type="uml:Class" xmi:id="_oSUg8rT-EeuhEpRjlh2CRA" name="ResturauntHobbyController">
+              <ownedAttribute xmi:id="_oXYAELT-EeuhEpRjlh2CRA" name="service" visibility="private" type="_oSoC8LT-EeuhEpRjlh2CRA" association="_oXnQoLT-EeuhEpRjlh2CRA"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oXfU07T-EeuhEpRjlh2CRA" name="ResturauntHobbyController" specification="_oU9lQLT-EeuhEpRjlh2CRA">
+                <ownedParameter xmi:id="_oXfU1LT-EeuhEpRjlh2CRA" name="service" type="_oSoC8LT-EeuhEpRjlh2CRA"/>
+                <ownedParameter xmi:id="_oXfU1bT-EeuhEpRjlh2CRA" type="_oSUg8rT-EeuhEpRjlh2CRA" direction="return"/>
+                <language>java</language>
+                <body>this.service = service;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oXf74LT-EeuhEpRjlh2CRA" name="createDish" specification="_oU-MUbT-EeuhEpRjlh2CRA">
+                <ownedParameter xmi:id="_oXf74bT-EeuhEpRjlh2CRA" name="resturauntHobby" type="_oSbOoLT-EeuhEpRjlh2CRA"/>
+                <ownedParameter xmi:id="_oXf74rT-EeuhEpRjlh2CRA" type="_oUg5UbT-EeuhEpRjlh2CRA" direction="return"/>
+                <language>java</language>
+                <body>return new ResponseEntity&lt;>(this.service.create(resturauntHobby),HttpStatus.CREATED);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oXf747T-EeuhEpRjlh2CRA" name="getResturauntHobby" specification="_oSVvELT-EeuhEpRjlh2CRA">
+                <ownedParameter xmi:id="_oXf75LT-EeuhEpRjlh2CRA" type="_oUg5UbT-EeuhEpRjlh2CRA" direction="return"/>
+                <language>java</language>
+                <body>return ResponseEntity.ok(this.service.getAll());&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oXf75bT-EeuhEpRjlh2CRA" name="getDishById" specification="_oXAMobT-EeuhEpRjlh2CRA">
+                <ownedParameter xmi:id="_oXf75rT-EeuhEpRjlh2CRA" name="id" type="_oW9wYrT-EeuhEpRjlh2CRA"/>
+                <ownedParameter xmi:id="_oXf757T-EeuhEpRjlh2CRA" type="_oUg5UbT-EeuhEpRjlh2CRA" direction="return"/>
+                <language>java</language>
+                <body>return ResponseEntity.ok(this.service.getById(id));	&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oXf76LT-EeuhEpRjlh2CRA" name="removeDish" specification="_oXD3ALT-EeuhEpRjlh2CRA">
+                <ownedParameter xmi:id="_oXf76bT-EeuhEpRjlh2CRA" name="id" type="_oW9wYrT-EeuhEpRjlh2CRA"/>
+                <ownedParameter xmi:id="_oXf76rT-EeuhEpRjlh2CRA" type="_oUg5UbT-EeuhEpRjlh2CRA" direction="return"/>
+                <language>java</language>
+                <body>return ResponseEntity.ok(this.service.remove(id));&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oXf767T-EeuhEpRjlh2CRA" name="updateDish" specification="_oXG6U7T-EeuhEpRjlh2CRA">
+                <ownedParameter xmi:id="_oXf77LT-EeuhEpRjlh2CRA" name="id" type="_oW9wYrT-EeuhEpRjlh2CRA"/>
+                <ownedParameter xmi:id="_oXf77bT-EeuhEpRjlh2CRA" name="rest" type="_oSbOoLT-EeuhEpRjlh2CRA"/>
+                <ownedParameter xmi:id="_oXf77rT-EeuhEpRjlh2CRA" type="_oUg5UbT-EeuhEpRjlh2CRA" direction="return"/>
+                <language>java</language>
+                <body>return ResponseEntity.ok(this.service.update(id, rest));&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_oSVvELT-EeuhEpRjlh2CRA" name="getResturauntHobby" method="_oXf747T-EeuhEpRjlh2CRA">
+                <ownedParameter xmi:id="_oW9wYLT-EeuhEpRjlh2CRA" type="_oUg5UbT-EeuhEpRjlh2CRA" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_oU9lQLT-EeuhEpRjlh2CRA" name="ResturauntHobbyController" method="_oXfU07T-EeuhEpRjlh2CRA">
+                <eAnnotations xmi:id="_oU9lQrT-EeuhEpRjlh2CRA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_oU9lQ7T-EeuhEpRjlh2CRA" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_oU9lQbT-EeuhEpRjlh2CRA" name="service" type="_oSoC8LT-EeuhEpRjlh2CRA"/>
+                <ownedParameter xmi:id="_oU9lRLT-EeuhEpRjlh2CRA" type="_oSUg8rT-EeuhEpRjlh2CRA" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_oU-MUbT-EeuhEpRjlh2CRA" name="createDish" method="_oXf74LT-EeuhEpRjlh2CRA">
+                <ownedParameter xmi:id="_oU-MUrT-EeuhEpRjlh2CRA" name="resturauntHobby" type="_oSbOoLT-EeuhEpRjlh2CRA"/>
+                <ownedParameter xmi:id="_oW9JULT-EeuhEpRjlh2CRA" type="_oUg5UbT-EeuhEpRjlh2CRA" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_oXAMobT-EeuhEpRjlh2CRA" name="getDishById" method="_oXf75bT-EeuhEpRjlh2CRA">
+                <ownedParameter xmi:id="_oXAzsLT-EeuhEpRjlh2CRA" name="id" type="_oW9wYrT-EeuhEpRjlh2CRA"/>
+                <ownedParameter xmi:id="_oXDP8bT-EeuhEpRjlh2CRA" type="_oUg5UbT-EeuhEpRjlh2CRA" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_oXD3ALT-EeuhEpRjlh2CRA" name="removeDish" method="_oXf76LT-EeuhEpRjlh2CRA">
+                <ownedParameter xmi:id="_oXD3AbT-EeuhEpRjlh2CRA" name="id" type="_oW9wYrT-EeuhEpRjlh2CRA"/>
+                <ownedParameter xmi:id="_oXGTQbT-EeuhEpRjlh2CRA" type="_oUg5UbT-EeuhEpRjlh2CRA" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_oXG6U7T-EeuhEpRjlh2CRA" name="updateDish" method="_oXf767T-EeuhEpRjlh2CRA">
+                <ownedParameter xmi:id="_oXG6VLT-EeuhEpRjlh2CRA" name="id" type="_oW9wYrT-EeuhEpRjlh2CRA"/>
+                <ownedParameter xmi:id="_oXG6VbT-EeuhEpRjlh2CRA" name="rest" type="_oSbOoLT-EeuhEpRjlh2CRA"/>
+                <ownedParameter xmi:id="_oXJWkbT-EeuhEpRjlh2CRA" type="_oUg5UbT-EeuhEpRjlh2CRA" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_oSuwoLT-EeuhEpRjlh2CRA" name="ResturauntHobbyControllerIntegrationTest" visibility="package">
+              <eAnnotations xmi:id="_oSuwobT-EeuhEpRjlh2CRA" source="http://ns.yatta.de/umllab">
+                <contents xmi:type="ecore:EAnnotation" xmi:id="_oSuworT-EeuhEpRjlh2CRA" source="codegen">
+                  <details xmi:id="_oSuwo7T-EeuhEpRjlh2CRA" key="codegenDirectory" value="/ResturauntHobby/src/test/java"/>
+                </contents>
+              </eAnnotations>
+              <ownedAttribute xmi:id="_oXcRgrT-EeuhEpRjlh2CRA" name="mockMVC" visibility="private" type="_oWBVMbT-EeuhEpRjlh2CRA" association="_oXyPwbT-EeuhEpRjlh2CRA"/>
+              <ownedAttribute xmi:id="_oXcRhbT-EeuhEpRjlh2CRA" name="mapper" visibility="private" type="_oWJRAbT-EeuhEpRjlh2CRA" association="_oX0sAbT-EeuhEpRjlh2CRA"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oXhxEbT-EeuhEpRjlh2CRA" name="testCreate" specification="_oSvXsbT-EeuhEpRjlh2CRA">
+                <language>java</language>
+                <body>ResturauntHobby kfc = new ResturauntHobby(&quot;KFC&quot;,&quot;London,UK&quot;,&quot;Zinger meal&quot;,45);&#xD;
+		String kfcAsJSON = this.mapper.writeValueAsString(kfc);&#xD;
+		&#xD;
+		RequestBuilder mockRequest = post(&quot;/create&quot;)&#xD;
+				.contentType(MediaType.APPLICATION_JSON)&#xD;
+				.content(kfcAsJSON);&#xD;
+		&#xD;
+		ResturauntHobby savedKfc = new ResturauntHobby(3L,&quot;KFC&quot;,&quot;London,UK&quot;,&quot;Zinger meal&quot;,45);&#xD;
+		String savedKfcAsJSON = this.mapper.writeValueAsString(savedKfc);&#xD;
+		&#xD;
+		ResultMatcher matchStatus = status().isCreated();&#xD;
+		ResultMatcher matchBody = content().json(savedKfcAsJSON);&#xD;
+		this.mockMVC.perform(mockRequest).andExpect(matchStatus).andExpect(matchBody);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oXhxErT-EeuhEpRjlh2CRA" name="testUpdate" specification="_oSv-wrT-EeuhEpRjlh2CRA">
+                <language>java</language>
+                <body>ResturauntHobby kfc = new ResturauntHobby(&quot;KFC&quot;,&quot;London,UK&quot;,&quot;Popcorn Chicken meal&quot;,55);&#xD;
+		String kfcAsJSON = this.mapper.writeValueAsString(kfc);&#xD;
+		&#xD;
+		RequestBuilder mockRequest = put(&quot;/update/1&quot;)&#xD;
+				.contentType(MediaType.APPLICATION_JSON)&#xD;
+				.content(kfcAsJSON);&#xD;
+		&#xD;
+		ResturauntHobby savedKfc = new ResturauntHobby(1L,&quot;KFC&quot;,&quot;London,UK&quot;,&quot;Popcorn Chicken meal&quot;,55);&#xD;
+		String savedKfcAsJSON = this.mapper.writeValueAsString(savedKfc);&#xD;
+		&#xD;
+		ResultMatcher matchStatus = status().isOk();&#xD;
+		ResultMatcher matchBody = content().json(savedKfcAsJSON);&#xD;
+		this.mockMVC.perform(mockRequest).andExpect(matchStatus).andExpect(matchBody);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oXhxE7T-EeuhEpRjlh2CRA" name="testRemove" specification="_oSwl0rT-EeuhEpRjlh2CRA">
+                <language>java</language>
+                <body>RequestBuilder mockRequest = delete(&quot;/remove/1&quot;)&#xD;
+				.contentType(MediaType.APPLICATION_JSON);		&#xD;
+		&#xD;
+		//As a result of the successful delete, the status code 200 is returned&#xD;
+		ResultMatcher matchStatus = status().isOk();&#xD;
+		this.mockMVC.perform(mockRequest).andExpect(matchStatus);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oXhxFLT-EeuhEpRjlh2CRA" name="testReadAll" specification="_oSxz8rT-EeuhEpRjlh2CRA">
+                <language>java</language>
+                <body>RequestBuilder mockRequest = get(&quot;/getAll&quot;)&#xD;
+				.contentType(MediaType.APPLICATION_JSON);&#xD;
+		&#xD;
+		//Matches the JSON Object with a JSON Object&#xD;
+		String savedVaps = &quot;[{\&quot;id\&quot;:1,\&quot;restaurantName\&quot;:\&quot;Vapianos\&quot;,\&quot;location\&quot;:\&quot;London UK\&quot;,\&quot;dish\&quot;:\&quot;Chicken and Mushroom Risotto\&quot;,\&quot;rating\&quot;:71},&quot;&#xD;
+				+ &quot;{\&quot;id\&quot;:2,\&quot;restaurantName\&quot;:\&quot;TGI Friday\&quot;,\&quot;location\&quot;:\&quot;Southampton UK\&quot;,\&quot;dish\&quot;:\&quot;JD Wings\&quot;,\&quot;rating\&quot;:80}]&quot;;&#xD;
+		&#xD;
+		ResultMatcher matchStatus = status().isOk();&#xD;
+		ResultMatcher matchBody = content().json(savedVaps);&#xD;
+		this.mockMVC.perform(mockRequest).andExpect(matchStatus)&#xD;
+		.andExpect(matchBody);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oXhxFbT-EeuhEpRjlh2CRA" name="testReadOne" specification="_oSybArT-EeuhEpRjlh2CRA">
+                <language>java</language>
+                <body>RequestBuilder mockRequest = get(&quot;/getOne/2&quot;)&#xD;
+				.contentType(MediaType.APPLICATION_JSON);&#xD;
+		&#xD;
+		//Matches the JSON Object with a JSON Object&#xD;
+		String savedVaps = &quot;{\&quot;id\&quot;:2,\&quot;restaurantName\&quot;:\&quot;TGI Friday\&quot;,\&quot;location\&quot;:\&quot;Southampton UK\&quot;,\&quot;dish\&quot;:\&quot;JD Wings\&quot;,\&quot;rating\&quot;:80}&quot;;&#xD;
+		&#xD;
+		ResultMatcher matchStatus = status().isOk();&#xD;
+		ResultMatcher matchBody = content().json(savedVaps);&#xD;
+		this.mockMVC.perform(mockRequest).andExpect(matchStatus)&#xD;
+		.andExpect(matchBody);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_oSvXsbT-EeuhEpRjlh2CRA" name="testCreate" visibility="package" method="_oXhxEbT-EeuhEpRjlh2CRA" raisedException="_oXTuoLT-EeuhEpRjlh2CRA"/>
+              <ownedOperation xmi:id="_oSv-wrT-EeuhEpRjlh2CRA" name="testUpdate" visibility="package" method="_oXhxErT-EeuhEpRjlh2CRA" raisedException="_oXTuoLT-EeuhEpRjlh2CRA"/>
+              <ownedOperation xmi:id="_oSwl0rT-EeuhEpRjlh2CRA" name="testRemove" visibility="package" method="_oXhxE7T-EeuhEpRjlh2CRA" raisedException="_oXTuoLT-EeuhEpRjlh2CRA"/>
+              <ownedOperation xmi:id="_oSxz8rT-EeuhEpRjlh2CRA" name="testReadAll" visibility="package" method="_oXhxFLT-EeuhEpRjlh2CRA" raisedException="_oXTuoLT-EeuhEpRjlh2CRA"/>
+              <ownedOperation xmi:id="_oSybArT-EeuhEpRjlh2CRA" name="testReadOne" visibility="package" method="_oXhxFbT-EeuhEpRjlh2CRA" raisedException="_oXTuoLT-EeuhEpRjlh2CRA"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_oXnQoLT-EeuhEpRjlh2CRA" name="" memberEnd="_oXnQobT-EeuhEpRjlh2CRA _oXYAELT-EeuhEpRjlh2CRA">
+              <ownedEnd xmi:id="_oXnQobT-EeuhEpRjlh2CRA" name="" type="_oSUg8rT-EeuhEpRjlh2CRA" association="_oXnQoLT-EeuhEpRjlh2CRA"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_oXyPwbT-EeuhEpRjlh2CRA" name="" memberEnd="_oXyPwrT-EeuhEpRjlh2CRA _oXcRgrT-EeuhEpRjlh2CRA">
+              <ownedEnd xmi:id="_oXyPwrT-EeuhEpRjlh2CRA" name="" type="_oSuwoLT-EeuhEpRjlh2CRA" association="_oXyPwbT-EeuhEpRjlh2CRA"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_oX0sAbT-EeuhEpRjlh2CRA" name="" memberEnd="_oX0sArT-EeuhEpRjlh2CRA _oXcRhbT-EeuhEpRjlh2CRA">
+              <ownedEnd xmi:id="_oX0sArT-EeuhEpRjlh2CRA" name="" type="_oSuwoLT-EeuhEpRjlh2CRA" association="_oX0sAbT-EeuhEpRjlh2CRA"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_oR5DILT-EeuhEpRjlh2CRA" name="repo">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_oSmNwLT-EeuhEpRjlh2CRA" name="ResturauntHobbyRepo">
+              <generalization xmi:id="_oXPdMLT-EeuhEpRjlh2CRA" general="_oVV_wLT-EeuhEpRjlh2CRA"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_oR-isLT-EeuhEpRjlh2CRA" name="selenium">
+            <packagedElement xmi:type="uml:Package" xmi:id="_oR_JwLT-EeuhEpRjlh2CRA" name="page">
+              <packagedElement xmi:type="uml:Class" xmi:id="_oS0QMLT-EeuhEpRjlh2CRA" name="page">
+                <eAnnotations xmi:id="_oS0QMbT-EeuhEpRjlh2CRA" source="http://ns.yatta.de/umllab">
+                  <contents xmi:type="ecore:EAnnotation" xmi:id="_oS0QMrT-EeuhEpRjlh2CRA" source="codegen">
+                    <details xmi:id="_oS0QM7T-EeuhEpRjlh2CRA" key="codegenDirectory" value="/ResturauntHobby/src/test/java"/>
+                  </contents>
+                </eAnnotations>
+                <ownedAttribute xmi:id="_oXc4krT-EeuhEpRjlh2CRA" name="heading" visibility="private" type="_oWM7YLT-EeuhEpRjlh2CRA" association="_oX3IQbT-EeuhEpRjlh2CRA"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oXiYILT-EeuhEpRjlh2CRA" name="getHeading" specification="_oS03QLT-EeuhEpRjlh2CRA">
+                  <ownedParameter xmi:id="_oXiYIbT-EeuhEpRjlh2CRA" type="_oWM7YLT-EeuhEpRjlh2CRA" direction="return"/>
+                  <language>java</language>
+                  <body>return heading;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_oS03QLT-EeuhEpRjlh2CRA" name="getHeading" method="_oXiYILT-EeuhEpRjlh2CRA">
+                  <ownedParameter xmi:id="_oXWx8LT-EeuhEpRjlh2CRA" type="_oWM7YLT-EeuhEpRjlh2CRA" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_oX3IQbT-EeuhEpRjlh2CRA" name="" memberEnd="_oX3IQrT-EeuhEpRjlh2CRA _oXc4krT-EeuhEpRjlh2CRA">
+                <ownedEnd xmi:id="_oX3IQrT-EeuhEpRjlh2CRA" name="" type="_oS0QMLT-EeuhEpRjlh2CRA" association="_oX3IQbT-EeuhEpRjlh2CRA"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_oSAX4LT-EeuhEpRjlh2CRA" name="test">
+              <packagedElement xmi:type="uml:Class" xmi:id="_oS03QbT-EeuhEpRjlh2CRA" name="test">
+                <eAnnotations xmi:id="_oS1eULT-EeuhEpRjlh2CRA" source="http://ns.yatta.de/umllab">
+                  <contents xmi:type="ecore:EAnnotation" xmi:id="_oS1eUbT-EeuhEpRjlh2CRA" source="codegen">
+                    <details xmi:id="_oS1eUrT-EeuhEpRjlh2CRA" key="codegenDirectory" value="/ResturauntHobby/src/test/java"/>
+                  </contents>
+                </eAnnotations>
+                <ownedAttribute xmi:id="_oXdfobT-EeuhEpRjlh2CRA" name="randomPort" visibility="package" isStatic="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_oXdfpLT-EeuhEpRjlh2CRA" name="URL" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_oXdfpbT-EeuhEpRjlh2CRA" value="&quot;http://localhost:&quot;+randomPort"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_oXdfp7T-EeuhEpRjlh2CRA" name="driver" visibility="private" type="_oWi5obT-EeuhEpRjlh2CRA" association="_oX6LkbT-EeuhEpRjlh2CRA"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oXiYIrT-EeuhEpRjlh2CRA" name="setUp" specification="_oS2FYLT-EeuhEpRjlh2CRA">
+                  <language>java</language>
+                  <body>System.setProperty(&quot;webdriver.chrome.driver&quot;, &quot;src/main/resources/chromedriver.exe&quot;);&#xD;
+		ChromeOptions option = new ChromeOptions();&#xD;
+		option.setHeadless(true);&#xD;
+		driver = new ChromeDriver(option);&#xD;
+		driver.manage().window().setSize(new Dimension(1786, 636));&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oXiYI7T-EeuhEpRjlh2CRA" name="enterSite" specification="_oS2FY7T-EeuhEpRjlh2CRA">
+                  <language>java</language>
+                  <body>driver.get(URL);&#xD;
+		assertEquals(URL,driver.getCurrentUrl());&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oXiYJLT-EeuhEpRjlh2CRA" name="shutDown" specification="_oS2scrT-EeuhEpRjlh2CRA">
+                  <language>java</language>
+                  <body>driver.close();		&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_oS2FYLT-EeuhEpRjlh2CRA" name="setUp" method="_oXiYIrT-EeuhEpRjlh2CRA"/>
+                <ownedOperation xmi:id="_oS2FY7T-EeuhEpRjlh2CRA" name="enterSite" method="_oXiYI7T-EeuhEpRjlh2CRA"/>
+                <ownedOperation xmi:id="_oS2scrT-EeuhEpRjlh2CRA" name="shutDown" method="_oXiYJLT-EeuhEpRjlh2CRA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_oX6LkbT-EeuhEpRjlh2CRA" name="" memberEnd="_oX6LkrT-EeuhEpRjlh2CRA _oXdfp7T-EeuhEpRjlh2CRA">
+                <ownedEnd xmi:id="_oX6LkrT-EeuhEpRjlh2CRA" name="" type="_oS03QbT-EeuhEpRjlh2CRA" association="_oX6LkbT-EeuhEpRjlh2CRA"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_oSSEsLT-EeuhEpRjlh2CRA" name="ResturauntHobbyApplication">
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oXfU0LT-EeuhEpRjlh2CRA" name="main" specification="_oST54bT-EeuhEpRjlh2CRA">
+              <ownedParameter xmi:id="_oXfU0bT-EeuhEpRjlh2CRA" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oXfU0rT-EeuhEpRjlh2CRA" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>SpringApplication.run(ResturauntHobbyApplication.class, args);
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_oST54bT-EeuhEpRjlh2CRA" name="main" isStatic="true" method="_oXfU0LT-EeuhEpRjlh2CRA">
+              <ownedParameter xmi:id="_oST54rT-EeuhEpRjlh2CRA" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oST55LT-EeuhEpRjlh2CRA" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_oSrtULT-EeuhEpRjlh2CRA" name="ResturauntHobbyApplicationTests" visibility="package">
+            <eAnnotations xmi:id="_oSsUYLT-EeuhEpRjlh2CRA" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_oSsUYbT-EeuhEpRjlh2CRA" source="codegen">
+                <details xmi:id="_oSsUYrT-EeuhEpRjlh2CRA" key="codegenDirectory" value="/ResturauntHobby/src/test/java"/>
+              </contents>
+            </eAnnotations>
+            <ownedAttribute xmi:id="_oXbqcLT-EeuhEpRjlh2CRA" name="hobbyController" visibility="private" type="_oSUg8rT-EeuhEpRjlh2CRA" association="_oXswMbT-EeuhEpRjlh2CRA"/>
+            <ownedAttribute xmi:id="_oXbqc7T-EeuhEpRjlh2CRA" name="hobbyService" visibility="private" type="_oSoC8LT-EeuhEpRjlh2CRA" association="_oXvMcbT-EeuhEpRjlh2CRA"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oXhxELT-EeuhEpRjlh2CRA" name="contextLoads" specification="_oSs7cbT-EeuhEpRjlh2CRA">
+              <language>java</language>
+              <body>assertThat(hobbyController).isNotNull();&#xD;
+		assertThat(hobbyService).isNotNull();&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_oSs7cbT-EeuhEpRjlh2CRA" name="contextLoads" visibility="package" method="_oXhxELT-EeuhEpRjlh2CRA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_oXswMbT-EeuhEpRjlh2CRA" name="" memberEnd="_oXswMrT-EeuhEpRjlh2CRA _oXbqcLT-EeuhEpRjlh2CRA">
+            <ownedEnd xmi:id="_oXswMrT-EeuhEpRjlh2CRA" name="" type="_oSrtULT-EeuhEpRjlh2CRA" association="_oXswMbT-EeuhEpRjlh2CRA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_oXvMcbT-EeuhEpRjlh2CRA" name="" memberEnd="_oXvMcrT-EeuhEpRjlh2CRA _oXbqc7T-EeuhEpRjlh2CRA">
+            <ownedEnd xmi:id="_oXvMcrT-EeuhEpRjlh2CRA" name="" type="_oSrtULT-EeuhEpRjlh2CRA" association="_oXvMcbT-EeuhEpRjlh2CRA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_p09_cLT-EeuhEpRjlh2CRA" name="NewClass1"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_oR8thLT-EeuhEpRjlh2CRA" name="fasterxml">
+        <packagedElement xmi:type="uml:Package" xmi:id="_oR8thbT-EeuhEpRjlh2CRA" name="jackson">
+          <packagedElement xmi:type="uml:Package" xmi:id="_oR8thrT-EeuhEpRjlh2CRA" name="databind">
+            <packagedElement xmi:type="uml:Class" xmi:id="_oWJRAbT-EeuhEpRjlh2CRA" name="ObjectMapper"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_oRokcLT-EeuhEpRjlh2CRA" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_oRokcbT-EeuhEpRjlh2CRA" name="springframework">
+        <packagedElement xmi:type="uml:Package" xmi:id="_oRokcrT-EeuhEpRjlh2CRA" name="boot">
+          <packagedElement xmi:type="uml:Package" xmi:id="_oRpLgLT-EeuhEpRjlh2CRA" name="autoconfigure">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_oUTd8bT-EeuhEpRjlh2CRA" name="SpringBootApplication"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_oR64WLT-EeuhEpRjlh2CRA" name="test">
+            <packagedElement xmi:type="uml:Package" xmi:id="_oR64WbT-EeuhEpRjlh2CRA" name="context">
+              <packagedElement xmi:type="uml:Package" xmi:id="_oR8tgLT-EeuhEpRjlh2CRA" name="SpringBootTest">
+                <packagedElement xmi:type="uml:Enumeration" xmi:id="_oV29ILT-EeuhEpRjlh2CRA" name="WebEnvironment"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_oVrW8bT-EeuhEpRjlh2CRA" name="SpringBootTest"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_oR8GdbT-EeuhEpRjlh2CRA" name="autoconfigure">
+              <packagedElement xmi:type="uml:Package" xmi:id="_oR8GdrT-EeuhEpRjlh2CRA" name="web">
+                <packagedElement xmi:type="uml:Package" xmi:id="_oR8Gd7T-EeuhEpRjlh2CRA" name="servlet">
+                  <packagedElement xmi:type="uml:Interface" xmi:id="_oVz50bT-EeuhEpRjlh2CRA" name="AutoConfigureMockMvc"/>
+                </packagedElement>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_oSA-8bT-EeuhEpRjlh2CRA" name="mock">
+              <packagedElement xmi:type="uml:Package" xmi:id="_oSBmALT-EeuhEpRjlh2CRA" name="mockito">
+                <packagedElement xmi:type="uml:Interface" xmi:id="_oW434LT-EeuhEpRjlh2CRA" name="MockBean"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_oR_w0rT-EeuhEpRjlh2CRA" name="web">
+            <packagedElement xmi:type="uml:Package" xmi:id="_oR_w07T-EeuhEpRjlh2CRA" name="server">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_oWsDkLT-EeuhEpRjlh2CRA" name="LocalServerPort"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_oUOlcLT-EeuhEpRjlh2CRA" name="SpringApplication"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_oRqZobT-EeuhEpRjlh2CRA" name="http">
+          <packagedElement xmi:type="uml:Enumeration" xmi:id="_oUcn4bT-EeuhEpRjlh2CRA" name="HttpStatus"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_oUg5UbT-EeuhEpRjlh2CRA" name="ResponseEntity"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_oV5ZYbT-EeuhEpRjlh2CRA" name="MediaType"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_oRqZorT-EeuhEpRjlh2CRA" name="web">
+          <packagedElement xmi:type="uml:Package" xmi:id="_oRqZo7T-EeuhEpRjlh2CRA" name="bind">
+            <packagedElement xmi:type="uml:Package" xmi:id="_oRqZpLT-EeuhEpRjlh2CRA" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_oUlKwbT-EeuhEpRjlh2CRA" name="CrossOrigin"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_oUo1IbT-EeuhEpRjlh2CRA" name="DeleteMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_oUsfgLT-EeuhEpRjlh2CRA" name="GetMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_oUu7wbT-EeuhEpRjlh2CRA" name="PathVariable"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_oUx_EbT-EeuhEpRjlh2CRA" name="PostMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_oU0bUbT-EeuhEpRjlh2CRA" name="PutMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_oU3eobT-EeuhEpRjlh2CRA" name="RequestBody"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_oU6h8LT-EeuhEpRjlh2CRA" name="RestController"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_oR4cELT-EeuhEpRjlh2CRA" name="data">
+          <packagedElement xmi:type="uml:Package" xmi:id="_oR4cEbT-EeuhEpRjlh2CRA" name="jpa">
+            <packagedElement xmi:type="uml:Package" xmi:id="_oR4cErT-EeuhEpRjlh2CRA" name="repository">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_oVV_wLT-EeuhEpRjlh2CRA" name="JpaRepository"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_oR4cE7T-EeuhEpRjlh2CRA" name="stereotype">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_oVYcAbT-EeuhEpRjlh2CRA" name="Repository"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_oVeiobT-EeuhEpRjlh2CRA" name="Service"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_oR64VbT-EeuhEpRjlh2CRA" name="beans">
+          <packagedElement xmi:type="uml:Package" xmi:id="_oR64VrT-EeuhEpRjlh2CRA" name="factory">
+            <packagedElement xmi:type="uml:Package" xmi:id="_oR64V7T-EeuhEpRjlh2CRA" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_oVo6sbT-EeuhEpRjlh2CRA" name="Autowired"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_oR8GcLT-EeuhEpRjlh2CRA" name="test">
+          <packagedElement xmi:type="uml:Package" xmi:id="_oR8GcbT-EeuhEpRjlh2CRA" name="web">
+            <packagedElement xmi:type="uml:Package" xmi:id="_oR8GcrT-EeuhEpRjlh2CRA" name="servlet">
+              <packagedElement xmi:type="uml:Package" xmi:id="_oR8Gc7T-EeuhEpRjlh2CRA" name="request">
+                <packagedElement xmi:type="uml:Class" xmi:id="_oVuaQbT-EeuhEpRjlh2CRA" name="MockMvcRequestBuilders"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_oR8GdLT-EeuhEpRjlh2CRA" name="result">
+                <packagedElement xmi:type="uml:Class" xmi:id="_oVxdkbT-EeuhEpRjlh2CRA" name="MockMvcResultMatchers"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_oWBVMbT-EeuhEpRjlh2CRA" name="MockMvc"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_oWDxcbT-EeuhEpRjlh2CRA" name="RequestBuilder"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_oWGNsbT-EeuhEpRjlh2CRA" name="ResultMatcher"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_oR8tgbT-EeuhEpRjlh2CRA" name="context">
+            <packagedElement xmi:type="uml:Package" xmi:id="_oR8tgrT-EeuhEpRjlh2CRA" name="jdbc">
+              <packagedElement xmi:type="uml:Package" xmi:id="_oR8tg7T-EeuhEpRjlh2CRA" name="Sql">
+                <packagedElement xmi:type="uml:Enumeration" xmi:id="_oV-48LT-EeuhEpRjlh2CRA" name="ExecutionPhase"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_oV71obT-EeuhEpRjlh2CRA" name="Sql"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_oR_w1LT-EeuhEpRjlh2CRA" name="junit4">
+              <packagedElement xmi:type="uml:Class" xmi:id="_oWyxQbT-EeuhEpRjlh2CRA" name="SpringRunner"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_oWwVALT-EeuhEpRjlh2CRA" name="ContextConfiguration"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_oR6RQLT-EeuhEpRjlh2CRA" name="assertj">
+        <packagedElement xmi:type="uml:Package" xmi:id="_oR64ULT-EeuhEpRjlh2CRA" name="core">
+          <packagedElement xmi:type="uml:Package" xmi:id="_oR64UbT-EeuhEpRjlh2CRA" name="api">
+            <packagedElement xmi:type="uml:Class" xmi:id="_oVi0ELT-EeuhEpRjlh2CRA" name="Assertions"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_oR64UrT-EeuhEpRjlh2CRA" name="junit">
+        <packagedElement xmi:type="uml:Package" xmi:id="_oR64U7T-EeuhEpRjlh2CRA" name="jupiter">
+          <packagedElement xmi:type="uml:Package" xmi:id="_oR64VLT-EeuhEpRjlh2CRA" name="api">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_oVl3YbT-EeuhEpRjlh2CRA" name="Test"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_oR_w0LT-EeuhEpRjlh2CRA" name="runner">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_oWeBILT-EeuhEpRjlh2CRA" name="RunWith"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_oWTCALT-EeuhEpRjlh2CRA" name="Assert"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_oWVeQbT-EeuhEpRjlh2CRA" name="After"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_oWYhkLT-EeuhEpRjlh2CRA" name="Before"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_oWa90bT-EeuhEpRjlh2CRA" name="Test"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_oR-isbT-EeuhEpRjlh2CRA" name="openqa">
+        <packagedElement xmi:type="uml:Package" xmi:id="_oR-isrT-EeuhEpRjlh2CRA" name="selenium">
+          <packagedElement xmi:type="uml:Package" xmi:id="_oR-is7T-EeuhEpRjlh2CRA" name="support">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_oWPXobT-EeuhEpRjlh2CRA" name="FindBy"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_oR_w0bT-EeuhEpRjlh2CRA" name="chrome">
+            <packagedElement xmi:type="uml:Class" xmi:id="_oWl88bT-EeuhEpRjlh2CRA" name="ChromeDriver"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_oWoZMbT-EeuhEpRjlh2CRA" name="ChromeOptions"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_oWM7YLT-EeuhEpRjlh2CRA" name="WebElement"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_oWgdYbT-EeuhEpRjlh2CRA" name="Dimension"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_oWi5obT-EeuhEpRjlh2CRA" name="WebDriver"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_oSA-8LT-EeuhEpRjlh2CRA" name="mockito">
+        <packagedElement xmi:type="uml:Class" xmi:id="_oW10kLT-EeuhEpRjlh2CRA" name="Mockito"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_oRpykLT-EeuhEpRjlh2CRA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_oRqZoLT-EeuhEpRjlh2CRA" name="util">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_oUYWcLT-EeuhEpRjlh2CRA" name="List"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_oVbfUbT-EeuhEpRjlh2CRA" name="Optional"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_oW9wYbT-EeuhEpRjlh2CRA" name="lang">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_oW9wYrT-EeuhEpRjlh2CRA" name="Long"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_oXLy0LT-EeuhEpRjlh2CRA" name="Object"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_oXTuoLT-EeuhEpRjlh2CRA" name="Exception"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_oRvSILT-EeuhEpRjlh2CRA" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_oRvSIbT-EeuhEpRjlh2CRA" name="persistence">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_oVDr4LT-EeuhEpRjlh2CRA" name="Entity"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_oVGIIbT-EeuhEpRjlh2CRA" name="GeneratedValue"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_oVJLcbT-EeuhEpRjlh2CRA" name="GenerationType"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_oVMOwLT-EeuhEpRjlh2CRA" name="Id"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_oVOrAbT-EeuhEpRjlh2CRA" name="Table"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_oRvSIrT-EeuhEpRjlh2CRA" name="validation">
+        <packagedElement xmi:type="uml:Package" xmi:id="_oRvSI7T-EeuhEpRjlh2CRA" name="constraints">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_oVRuUbT-EeuhEpRjlh2CRA" name="NotNull"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_oMipELT-EeuhEpRjlh2CRA">
+      <eAnnotations xmi:id="_oMjQILT-EeuhEpRjlh2CRA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+    <profileApplication xmi:id="_oSccwLT-EeuhEpRjlh2CRA">
+      <eAnnotations xmi:id="_oSccwbT-EeuhEpRjlh2CRA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2-Annotation-Persistency"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_oMjQIbT-EeuhEpRjlh2CRA" base_Package="_oINisLT-EeuhEpRjlh2CRA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oSSrwLT-EeuhEpRjlh2CRA" base_Element="_oSSEsLT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:StyledElement xmi:id="_oST547T-EeuhEpRjlh2CRA" base_Element="_oST54bT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Annotations xmi:id="_oSUg8LT-EeuhEpRjlh2CRA" base_Element="_oSSEsLT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oSUg8bT-EeuhEpRjlh2CRA" name="SpringBootApplication"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oSVIALT-EeuhEpRjlh2CRA" base_Element="_oSUg8rT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Generics xmi:id="_oSWWILT-EeuhEpRjlh2CRA" genericsValue="List&lt;ResturauntHobby>" base_Element="_oSVvELT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Annotations xmi:id="_oSW9MLT-EeuhEpRjlh2CRA" base_Element="_oSVvELT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oSW9MbT-EeuhEpRjlh2CRA" name="GetMapping">
+      <annotationParameters xmi:id="_oSXkQLT-EeuhEpRjlh2CRA" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_oXjmQbT-EeuhEpRjlh2CRA" value="&quot;/getAll&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_oSYLULT-EeuhEpRjlh2CRA" base_Element="_oSUg8rT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oSYLUbT-EeuhEpRjlh2CRA" name="RestController"/>
+    <annotations xmi:id="_oSYLUrT-EeuhEpRjlh2CRA" name="CrossOrigin"/>
+  </UMLLabProfile:Annotations>
+  <Persistency:Table xmi:id="_oSdD0LT-EeuhEpRjlh2CRA" tableName="restaurant_hobby" base_Classifier="_oSbOoLT-EeuhEpRjlh2CRA"/>
+  <Persistency:JPA1StyledElement xmi:id="_oSdq4LT-EeuhEpRjlh2CRA" base_Element="_oSbOoLT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:StyledElement xmi:id="_oSgHI7T-EeuhEpRjlh2CRA" base_Element="_oSfgELT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oShVQrT-EeuhEpRjlh2CRA" base_Element="_oSguMLT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oSh8UbT-EeuhEpRjlh2CRA" base_Element="_oShVRLT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Annotations xmi:id="_oSh8UrT-EeuhEpRjlh2CRA" base_Element="_oShVRLT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oSh8U7T-EeuhEpRjlh2CRA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oSm00LT-EeuhEpRjlh2CRA" base_Element="_oSmNwLT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Annotations xmi:id="_oSnb4LT-EeuhEpRjlh2CRA" base_Element="_oSmNwLT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oSnb4bT-EeuhEpRjlh2CRA" name="Repository"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oSoC8bT-EeuhEpRjlh2CRA" base_Element="_oSoC8LT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:StyledElement xmi:id="_oSpRErT-EeuhEpRjlh2CRA" base_Element="_oSoqALT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Annotations xmi:id="_oSp4ILT-EeuhEpRjlh2CRA" base_Element="_oSoC8LT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oSp4IbT-EeuhEpRjlh2CRA" name="Service"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oSs7cLT-EeuhEpRjlh2CRA" base_Element="_oSrtULT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Annotations xmi:id="_oStigLT-EeuhEpRjlh2CRA" base_Element="_oSs7cbT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oStigbT-EeuhEpRjlh2CRA" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_oStigrT-EeuhEpRjlh2CRA" base_Element="_oSrtULT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oStig7T-EeuhEpRjlh2CRA" name="SpringBootTest"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oSvXsLT-EeuhEpRjlh2CRA" base_Element="_oSuwoLT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Annotations xmi:id="_oSv-wLT-EeuhEpRjlh2CRA" base_Element="_oSvXsbT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oSv-wbT-EeuhEpRjlh2CRA" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_oSwl0LT-EeuhEpRjlh2CRA" base_Element="_oSv-wrT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oSwl0bT-EeuhEpRjlh2CRA" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_oSxz8LT-EeuhEpRjlh2CRA" base_Element="_oSwl0rT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oSxz8bT-EeuhEpRjlh2CRA" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_oSybALT-EeuhEpRjlh2CRA" base_Element="_oSxz8rT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oSybAbT-EeuhEpRjlh2CRA" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_oSybA7T-EeuhEpRjlh2CRA" base_Element="_oSybArT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oSybBLT-EeuhEpRjlh2CRA" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_oSybBbT-EeuhEpRjlh2CRA" base_Element="_oSuwoLT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oSzCELT-EeuhEpRjlh2CRA" name="SpringBootTest">
+      <annotationParameters xmi:id="_oSzCEbT-EeuhEpRjlh2CRA" name="webEnvironment" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_oXjmRrT-EeuhEpRjlh2CRA" value="WebEnvironment.RANDOM_PORT"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="_oSzCErT-EeuhEpRjlh2CRA" name="AutoConfigureMockMvc"/>
+    <annotations xmi:id="_oSzCE7T-EeuhEpRjlh2CRA" name="Sql">
+      <annotationParameters xmi:id="_oSzCFLT-EeuhEpRjlh2CRA" name="scripts">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_oXjmR7T-EeuhEpRjlh2CRA" value="&quot;classpath:schema.sql&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_oXjmSLT-EeuhEpRjlh2CRA" value="&quot;classpath:data.sql&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_oSzCFbT-EeuhEpRjlh2CRA" name="executionPhase" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_oXjmSbT-EeuhEpRjlh2CRA" value="ExecutionPhase.BEFORE_TEST_METHOD"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oS1eU7T-EeuhEpRjlh2CRA" base_Element="_oS03QbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Annotations xmi:id="_oS2FYbT-EeuhEpRjlh2CRA" base_Element="_oS2FYLT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oS2FYrT-EeuhEpRjlh2CRA" name="Before"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_oS2scLT-EeuhEpRjlh2CRA" base_Element="_oS2FY7T-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oS2scbT-EeuhEpRjlh2CRA" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_oS2sc7T-EeuhEpRjlh2CRA" base_Element="_oS2scrT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oS2sdLT-EeuhEpRjlh2CRA" name="After"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_oS2sdbT-EeuhEpRjlh2CRA" base_Element="_oS03QbT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oS2sdrT-EeuhEpRjlh2CRA" name="SpringBootTest">
+      <annotationParameters xmi:id="_oS2sd7T-EeuhEpRjlh2CRA" name="webEnvironment" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_oXkNUbT-EeuhEpRjlh2CRA" value="WebEnvironment.RANDOM_PORT"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="_oS2seLT-EeuhEpRjlh2CRA" name="ContextConfiguration"/>
+    <annotations xmi:id="_oS3TgLT-EeuhEpRjlh2CRA" name="RunWith">
+      <annotationParameters xmi:id="_oS3TgbT-EeuhEpRjlh2CRA" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_oXkNUrT-EeuhEpRjlh2CRA" value="SpringRunner.class"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oS4hoLT-EeuhEpRjlh2CRA" base_Element="_oS36kLT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Annotations xmi:id="_oS4horT-EeuhEpRjlh2CRA" base_Element="_oS4hobT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oS4ho7T-EeuhEpRjlh2CRA" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_oS5IsLT-EeuhEpRjlh2CRA" base_Element="_oS4hpLT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oS5IsbT-EeuhEpRjlh2CRA" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_oS5Is7T-EeuhEpRjlh2CRA" base_Element="_oS5IsrT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oS5ItLT-EeuhEpRjlh2CRA" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_oS5vwLT-EeuhEpRjlh2CRA" base_Element="_oS5ItbT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oS5vwbT-EeuhEpRjlh2CRA" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_oS5vw7T-EeuhEpRjlh2CRA" base_Element="_oS5vwrT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oS5vxLT-EeuhEpRjlh2CRA" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_oS5vxbT-EeuhEpRjlh2CRA" base_Element="_oS36kLT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oS5vxrT-EeuhEpRjlh2CRA" name="SpringBootTest"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_oUTd8LT-EeuhEpRjlh2CRA" base_Element="_oUOlcLT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oUXvYLT-EeuhEpRjlh2CRA" base_Element="_oUTd8bT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oUcn4LT-EeuhEpRjlh2CRA" base_Element="_oUYWcLT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oUg5ULT-EeuhEpRjlh2CRA" base_Element="_oUcn4bT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oUlKwLT-EeuhEpRjlh2CRA" base_Element="_oUg5UbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oUo1ILT-EeuhEpRjlh2CRA" base_Element="_oUlKwbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oUr4cLT-EeuhEpRjlh2CRA" base_Element="_oUo1IbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oUu7wLT-EeuhEpRjlh2CRA" base_Element="_oUsfgLT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oUx_ELT-EeuhEpRjlh2CRA" base_Element="_oUu7wbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oU0bULT-EeuhEpRjlh2CRA" base_Element="_oUx_EbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oU3eoLT-EeuhEpRjlh2CRA" base_Element="_oU0bUbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oU564LT-EeuhEpRjlh2CRA" base_Element="_oU3eobT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oU8-MLT-EeuhEpRjlh2CRA" base_Element="_oU6h8LT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:StyledElement xmi:id="_oU-MULT-EeuhEpRjlh2CRA" base_Element="_oU9lQLT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Generics xmi:id="_oVBPoLT-EeuhEpRjlh2CRA" genericsValue="ResturauntHobby" base_Element="_oU-MUbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Annotations xmi:id="_oVB2sLT-EeuhEpRjlh2CRA" base_Element="_oU-MUrT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oVB2sbT-EeuhEpRjlh2CRA" name="RequestBody"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_oVB2srT-EeuhEpRjlh2CRA" base_Element="_oU-MUbT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oVB2s7T-EeuhEpRjlh2CRA" name="PostMapping">
+      <annotationParameters xmi:id="_oVB2tLT-EeuhEpRjlh2CRA" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_oXjmQLT-EeuhEpRjlh2CRA" value="&quot;/create&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_oVGIILT-EeuhEpRjlh2CRA" base_Element="_oVDr4LT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oVJLcLT-EeuhEpRjlh2CRA" base_Element="_oVGIIbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oVLnsLT-EeuhEpRjlh2CRA" base_Element="_oVJLcbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oVOrALT-EeuhEpRjlh2CRA" base_Element="_oVMOwLT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oVRuULT-EeuhEpRjlh2CRA" base_Element="_oVOrAbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oVUKkLT-EeuhEpRjlh2CRA" base_Element="_oVRuUbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oVYcALT-EeuhEpRjlh2CRA" base_Element="_oVV_wLT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oVbfULT-EeuhEpRjlh2CRA" base_Element="_oVYcAbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oVeioLT-EeuhEpRjlh2CRA" base_Element="_oVbfUbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oVg-4LT-EeuhEpRjlh2CRA" base_Element="_oVeiobT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:StyledElement xmi:id="_oVhl9bT-EeuhEpRjlh2CRA" base_Element="_oVhl8LT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:StyledElement xmi:id="_oViNA7T-EeuhEpRjlh2CRA" base_Element="_oViNALT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oVl3YLT-EeuhEpRjlh2CRA" base_Element="_oVi0ELT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oVo6sLT-EeuhEpRjlh2CRA" base_Element="_oVl3YbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oVrW8LT-EeuhEpRjlh2CRA" base_Element="_oVo6sbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oVuaQLT-EeuhEpRjlh2CRA" base_Element="_oVrW8bT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oVxdkLT-EeuhEpRjlh2CRA" base_Element="_oVuaQbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oVz50LT-EeuhEpRjlh2CRA" base_Element="_oVxdkbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oV2WELT-EeuhEpRjlh2CRA" base_Element="_oVz50bT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oV5ZYLT-EeuhEpRjlh2CRA" base_Element="_oV29ILT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oV71oLT-EeuhEpRjlh2CRA" base_Element="_oV5ZYbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oV-R4LT-EeuhEpRjlh2CRA" base_Element="_oV71obT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oWBVMLT-EeuhEpRjlh2CRA" base_Element="_oV-48LT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oWDxcLT-EeuhEpRjlh2CRA" base_Element="_oWBVMbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oWGNsLT-EeuhEpRjlh2CRA" base_Element="_oWDxcbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oWJRALT-EeuhEpRjlh2CRA" base_Element="_oWGNsbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oWLtQLT-EeuhEpRjlh2CRA" base_Element="_oWJRAbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oWPXoLT-EeuhEpRjlh2CRA" base_Element="_oWM7YLT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oWSa8LT-EeuhEpRjlh2CRA" base_Element="_oWPXobT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oWVeQLT-EeuhEpRjlh2CRA" base_Element="_oWTCALT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oWX6gLT-EeuhEpRjlh2CRA" base_Element="_oWVeQbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oWa90LT-EeuhEpRjlh2CRA" base_Element="_oWYhkLT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oWdaELT-EeuhEpRjlh2CRA" base_Element="_oWa90bT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oWgdYLT-EeuhEpRjlh2CRA" base_Element="_oWeBILT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oWi5oLT-EeuhEpRjlh2CRA" base_Element="_oWgdYbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oWl88LT-EeuhEpRjlh2CRA" base_Element="_oWi5obT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oWoZMLT-EeuhEpRjlh2CRA" base_Element="_oWl88bT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oWrcgLT-EeuhEpRjlh2CRA" base_Element="_oWoZMbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oWvt8LT-EeuhEpRjlh2CRA" base_Element="_oWsDkLT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oWyxQLT-EeuhEpRjlh2CRA" base_Element="_oWwVALT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oW1NgLT-EeuhEpRjlh2CRA" base_Element="_oWyxQbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oW4Q0LT-EeuhEpRjlh2CRA" base_Element="_oW10kLT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oW7UILT-EeuhEpRjlh2CRA" base_Element="_oW434LT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oXAMoLT-EeuhEpRjlh2CRA" base_Element="_oW9wYrT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Generics xmi:id="_oXDP8LT-EeuhEpRjlh2CRA" genericsValue="ResturauntHobby" base_Element="_oXAMobT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Annotations xmi:id="_oXDP8rT-EeuhEpRjlh2CRA" base_Element="_oXAzsLT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oXDP87T-EeuhEpRjlh2CRA" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_oXDP9LT-EeuhEpRjlh2CRA" base_Element="_oXAMobT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oXDP9bT-EeuhEpRjlh2CRA" name="GetMapping">
+      <annotationParameters xmi:id="_oXDP9rT-EeuhEpRjlh2CRA" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_oXjmQrT-EeuhEpRjlh2CRA" value="&quot;/getOne/{id}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_oXGTQLT-EeuhEpRjlh2CRA" genericsValue="Boolean" base_Element="_oXD3ALT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Annotations xmi:id="_oXGTQrT-EeuhEpRjlh2CRA" base_Element="_oXD3AbT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oXGTQ7T-EeuhEpRjlh2CRA" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_oXG6ULT-EeuhEpRjlh2CRA" base_Element="_oXD3ALT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oXG6UbT-EeuhEpRjlh2CRA" name="DeleteMapping">
+      <annotationParameters xmi:id="_oXG6UrT-EeuhEpRjlh2CRA" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_oXjmQ7T-EeuhEpRjlh2CRA" value="&quot;/remove/{id}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_oXJWkLT-EeuhEpRjlh2CRA" genericsValue="ResturauntHobby" base_Element="_oXG6U7T-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Annotations xmi:id="_oXJ9oLT-EeuhEpRjlh2CRA" base_Element="_oXG6VLT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oXJ9obT-EeuhEpRjlh2CRA" name="PathVariable">
+      <annotationParameters xmi:id="_oXJ9orT-EeuhEpRjlh2CRA" name="value" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_oXjmRbT-EeuhEpRjlh2CRA" value="&quot;id&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_oXJ9o7T-EeuhEpRjlh2CRA" base_Element="_oXG6VbT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oXJ9pLT-EeuhEpRjlh2CRA" name="RequestBody"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_oXJ9pbT-EeuhEpRjlh2CRA" base_Element="_oXG6U7T-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oXJ9prT-EeuhEpRjlh2CRA" name="PutMapping">
+      <annotationParameters xmi:id="_oXJ9p7T-EeuhEpRjlh2CRA" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_oXjmRLT-EeuhEpRjlh2CRA" value="&quot;/update/{id}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_oXLLyLT-EeuhEpRjlh2CRA" base_Element="_oXKksLT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oXOPELT-EeuhEpRjlh2CRA" base_Element="_oXLy0LT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oXO2ILT-EeuhEpRjlh2CRA" base_Element="_oXOPEbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Annotations xmi:id="_oXO2IbT-EeuhEpRjlh2CRA" base_Element="_oXOPEbT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oXO2IrT-EeuhEpRjlh2CRA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_oXR5cLT-EeuhEpRjlh2CRA" genericsValue="ResturauntHobby, Long" base_Element="_oXPdMLT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:StyledElement xmi:id="_oXSgg7T-EeuhEpRjlh2CRA" base_Element="_oXSggLT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:StyledElement xmi:id="_oXTHk7T-EeuhEpRjlh2CRA" base_Element="_oXTHkLT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:StyledElement xmi:id="_oXTHmLT-EeuhEpRjlh2CRA" base_Element="_oXTHlLT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oXWK4LT-EeuhEpRjlh2CRA" base_Element="_oXTuoLT-EeuhEpRjlh2CRA"/>
+  <Persistency:PrimaryKey xmi:id="_oXZOMLT-EeuhEpRjlh2CRA" base_Property="_oXYnILT-EeuhEpRjlh2CRA"/>
+  <Persistency:GeneratedValueMapping xmi:id="_oXZOMbT-EeuhEpRjlh2CRA" base_Property="_oXYnILT-EeuhEpRjlh2CRA" strategy="IDENTITY"/>
+  <Persistency:NotNull xmi:id="_oXZ1QLT-EeuhEpRjlh2CRA" base_Property="_oXZOMrT-EeuhEpRjlh2CRA"/>
+  <Persistency:NotNull xmi:id="_oXZ1QrT-EeuhEpRjlh2CRA" base_Property="_oXZ1QbT-EeuhEpRjlh2CRA"/>
+  <Persistency:NotNull xmi:id="_oXacUbT-EeuhEpRjlh2CRA" base_Property="_oXacULT-EeuhEpRjlh2CRA"/>
+  <Persistency:NotNull xmi:id="_oXbDYLT-EeuhEpRjlh2CRA" base_Property="_oXacUrT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Annotations xmi:id="_oXbqcbT-EeuhEpRjlh2CRA" base_Element="_oXbqcLT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oXbqcrT-EeuhEpRjlh2CRA" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_oXcRgLT-EeuhEpRjlh2CRA" base_Element="_oXbqc7T-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oXcRgbT-EeuhEpRjlh2CRA" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_oXcRg7T-EeuhEpRjlh2CRA" base_Element="_oXcRgrT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oXcRhLT-EeuhEpRjlh2CRA" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_oXc4kLT-EeuhEpRjlh2CRA" base_Element="_oXcRhbT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oXc4kbT-EeuhEpRjlh2CRA" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oXc4k7T-EeuhEpRjlh2CRA" base_Element="_oXc4krT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Annotations xmi:id="_oXc4lLT-EeuhEpRjlh2CRA" base_Element="_oXc4krT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oXc4lbT-EeuhEpRjlh2CRA" name="FindBy">
+      <annotationParameters xmi:id="_oXdfoLT-EeuhEpRjlh2CRA" name="xpath" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_oXkNULT-EeuhEpRjlh2CRA" value="&quot;/html/body/div/div[1]/h3&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_oXdforT-EeuhEpRjlh2CRA" base_Element="_oXdfobT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oXdfo7T-EeuhEpRjlh2CRA" name="LocalServerPort"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_oXdfprT-EeuhEpRjlh2CRA" base_Element="_oXdfpLT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Annotations xmi:id="_oXeGsbT-EeuhEpRjlh2CRA" base_Element="_oXeGsLT-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oXeGsrT-EeuhEpRjlh2CRA" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_oXetwLT-EeuhEpRjlh2CRA" base_Element="_oXeGs7T-EeuhEpRjlh2CRA">
+    <annotations xmi:id="_oXetwbT-EeuhEpRjlh2CRA" name="MockBean"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_oXps4LT-EeuhEpRjlh2CRA" base_Element="_oXnQoLT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oXswMLT-EeuhEpRjlh2CRA" base_Element="_oXps4bT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oXvMcLT-EeuhEpRjlh2CRA" base_Element="_oXswMbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oXyPwLT-EeuhEpRjlh2CRA" base_Element="_oXvMcbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oX0sALT-EeuhEpRjlh2CRA" base_Element="_oXyPwbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oX3IQLT-EeuhEpRjlh2CRA" base_Element="_oX0sAbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oX6LkLT-EeuhEpRjlh2CRA" base_Element="_oX3IQbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oX8n0LT-EeuhEpRjlh2CRA" base_Element="_oX6LkbT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oX_rILT-EeuhEpRjlh2CRA" base_Element="_oX8n0bT-EeuhEpRjlh2CRA"/>
+  <UMLLabProfile:Reference xmi:id="_oYCHYLT-EeuhEpRjlh2CRA" base_Element="_oX_rIbT-EeuhEpRjlh2CRA"/>
+</xmi:XMI>
