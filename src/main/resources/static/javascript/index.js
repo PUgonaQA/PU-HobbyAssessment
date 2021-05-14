@@ -7,8 +7,9 @@ const LOCATION = document.querySelector("#location");
 const DISH = document.querySelector("#dishName");
 const RATING = document.querySelector("#ratingNo");
 
-const CREATEALERT = document.querySelector("#createAlert")
+const CREATEALERT = document.querySelector("#createAlert");
 
+//Creates table rows with Restaurant data
 fetch("/getAll")
     .then(res => {
         res.json().then(
@@ -17,11 +18,8 @@ fetch("/getAll")
                 if (data.length > 0) {
                     var rest = "";
 
-                    const del = "/remove/{id}"
-                    const upd = "/update/{id}"
-
-                    let button1 = "<a href=" + del + ">Delete</a>";
-                    let button2 = "<a href= " + upd + ">Update</a>";
+                    let button2 = `<button type="button" class="btn btn-danger" onclick="getConfirmation(this);">Delete</button>`;
+                    let button1 = `<button type="button" class="btn btn-primary" id="button" onclick="getConfirmation2(this);">Update</button>`;
 
                     data.forEach((a) => {
                         rest += "<tr>";
@@ -37,6 +35,48 @@ fetch("/getAll")
             }
         )
     })
+
+//Deletes elements within the table using the button
+window.getConfirmation = function (ele) {
+    var retVal = confirm("Are you sure you want to delete?");
+    if (retVal == true) {
+        var row = ele.closest('tr');
+        var id = row.cells[0].textContent;
+        console.log("User wants to delete: " + id);
+        axios
+            .delete('/remove/' + id)
+            .then((response) => {
+                console.log(data);
+                CREATEALERT.setAttribute("class", "alert alert-secondary");
+                CREATEALERT.innerHTML = "Restaurant entity has been succesfully deleted";
+                setTimeout(() => {
+                    CREATEALERT.removeAttribute("class");
+                    CREATEALERT.innerHTML = "";
+                    parent.window.location.reload(1);
+                }, 3000)
+            })
+            .catch((error) => {
+                console.error(error);
+                CREATEALERT.setAttribute("class", "alert alert-secondary");
+                CREATEALERT.innerHTML = "Restaurant entity has not been deleted";
+                setTimeout(() => {
+                    CREATEALERT.removeAttribute("class");
+                    CREATEALERT.innerHTML = "";
+                }, 3000)
+            })
+        return true;
+    }
+    else {
+        console.log("User does not want to delete!");
+        return false;
+    }
+}
+//Update
+function getConfirmation2(ele) {
+    var row = ele.closest('tr');
+    var id = row.cells[0].textContent;
+    console.log(id + row.RESTNAME);
+}
 
 // Create
 const createRest = () => {
@@ -57,13 +97,13 @@ const createRest = () => {
     };
 
     //  Axios Post request
-    if ((REST_NAME == "") || (LOCATION_VALUE == "") || (DISH_VALUE == "") || (RATING_VALUE=="") || (RATING_VALUE>100) || (RATING_VALUE<0)) {
+    if ((REST_NAME == "") || (LOCATION_VALUE == "") || (DISH_VALUE == "") || (RATING_VALUE == "") || (RATING_VALUE > 100) || (RATING_VALUE < 0)) {
         CREATEALERT.setAttribute("class", "alert alert-secondary");
-        CREATEALERT.innerHTML = "Restaurant entity not been created";
+        CREATEALERT.innerHTML = "Restaurant entity has NOT been created";
         setTimeout(() => {
             CREATEALERT.removeAttribute("class");
             CREATEALERT.innerHTML = "";
-        }, 3000)
+        }, 2000)
     }
     else {
         axios
@@ -88,3 +128,5 @@ const createRest = () => {
             })
     }
 }
+console.log(data);
+
