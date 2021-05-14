@@ -22,43 +22,91 @@
             <h1 class="Headings">RESTAURANT RATING PROJECT</h1>
         </header>
 
-        <div >
+        <div>
             <h3 class="Headings">CREATE NEW RESTAURANT MEAL</h3>
-            <form class="Form1">
+            <form class="Form1" autocomplete="off">
                 <div class="rowmb-3">
                     <label for="formGroupExampleInput" class="FormLabel"><b>Restaurant:</b></label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" id="restName" placeholder="Input Restaurant Name" required/>
+                        <input type="text" class="form-control" id="restName" placeholder="Input Restaurant Name"
+                            required />
                     </div>
                 </div>
                 <div class="rowmb-3">
                     <label for="formGroupExampleInput" class="FormLabel"><b>Location:</b></label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" id="location" placeholder="Input Restaurant Location" required/>
+                        <input type="text" class="form-control" id="location" placeholder="Input Restaurant Location"
+                            required />
                     </div>
                 </div>
                 <div class="rowmb-3">
                     <label for="formGroupExampleInput" class="FormLabel"><b>Dish:</b></label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" id="dishName" placeholder="Input Dish Name" required/>
+                        <input type="text" class="form-control" id="dishName" placeholder="Input Dish Name" required />
                     </div>
                 </div>
                 <div class="rowmb-3">
                     <label for="formGroupExampleInput" class="FormLabel"><b>Rating:</b></label>
                     <div class="col-sm-10">
                         <input type="number" class="form-control" id="ratingNo"
-                            placeholder="Input Rating Number (0-100)" min="1" max="100" required/>
+                            placeholder="Input Rating Number (0-100)" min="1" max="100" required />
                     </div>
                 </div>
                 <div class="form-grouprow">
                     <div class="col-sm-10">
-                        <button type="submit" class="btn btn-primary" id="button" onclick="createRest();"> Create </button>
+                        <button type="button" class="btn btn-primary" id="buttonSub" onclick='createRest();'> Create
+                        </button>
+
                         <button type="reset" class="btn btn-primary" id="button"> Reset </button>
                     </div>
                 </div>
             </form>
 
             <div class="alert alert-secondary" role="alert" id="createAlert"></div>
+
+            <div id="UpdateModal" class="modal"></div>
+            <div class="modal fade" id="form2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header border-bottom-0">
+                            <h5 class="modal-title" id="exampleModalLabel">Update Entity</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <form autocomplete="off">
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label for="formGroupExampleInput">Restaurant:</label>
+                                    <input type="text" class="form-control" id="nameRest"
+                                        placeholder="Input Restaurant Name" required />
+                                </div>
+                                <div class="form-group">
+                                    <label for="formGroupExampleInput">Location:</label>
+                                    <input type="text" class="form-control" id="nameLoc"
+                                        placeholder="Input Restaurant Location" required />
+                                </div>
+                                <div class="form-group">
+                                    <label for="formGroupExampleInput">Dish:</label>
+                                    <input type="text" class="form-control" id="nameDish" placeholder="Input Dish Name"
+                                        required />
+                                </div>
+                                <div class="form-group">
+                                    <label for="formGroupExampleInput">Rating:</label>
+                                    <input type="number" class="form-control" id="nameRat"
+                                        placeholder="Input Rating Number (0-100)" min="1" max="100" required />
+                                </div>
+                            </div>
+                            <div class="modal-footer border-top-0 d-flex justify-content-center">
+                                <button type="submit" class="btn btn-success" id="updateButton"> Submit </button>
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
 
         </div>
         <br>
